@@ -1,7 +1,7 @@
 !***********************************************************************
 ! Bacon Spy File
 ! Problem name: Half_Geometry_sim1-Solution_1
-! Creation Date: MAR 26 2018 15:09:28
+! Creation Date: MAR 27 2018 13:49:19
 !
 INPUT INIT
 EXIT
@@ -17,8 +17,8 @@ EXIT
 !         SOLUTION NAME: Solution 1
 !         SOLUTION TYPE: Linear Static Analysis
 !     SOLVER INPUT FILE: Half_Geometry_sim1-Solution_1.dat
-!         CREATION DATE: 26-mars-2018
-!         CREATION TIME: 15:09:24
+!         CREATION DATE: 27-mars-2018
+!         CREATION TIME: 13:49:13
 !              HOSTNAME: DESKTOP-OGM2ALH
 !              USERNAME: antoi
 !

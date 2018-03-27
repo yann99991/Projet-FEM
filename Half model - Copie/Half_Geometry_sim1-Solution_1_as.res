@@ -45,7 +45,7 @@
 
 
 
- Start of analysis : MAR 26 2018 15:09:28
+ Start of analysis : MAR 27 2018 13:49:19
  On the computer   : DESKTOP-OGM2ALH
  Using O/S         : Win NT 6.2 64 bits
  For user          : antoi
@@ -53,28 +53,28 @@
 
 1
 
- MEMORY ZONE AVAILABLE FOR THE DB :                                865000 WORDS (  0.7% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                             130135000 WORDS
+ MEMORY ZONE AVAILABLE FOR THE DB :                                410000 WORDS (  0.3% OF TOTAL ZONE)
+ WORKING MEMORY ZONE AVAILABLE    :                             130590000 WORDS
 
 
  ===============================================================================
  Status of the DB            : "Half_Geometry_sim1-Solution_1"
  ================
- DB created by BACON for antoi (MAR 26 2018 15:09:28)
- modified   by BACON for antoi (MAR 26 2018 15:09:28)
- modified   by ASEF for antoi (MAR 26 2018 15:09:28)
+ DB created by BACON for antoi (MAR 27 2018 13:49:19)
+ modified   by BACON for antoi (MAR 27 2018 13:49:19)
+ modified   by ASEF for antoi (MAR 27 2018 13:49:19)
  Release                     :   18.1- 1
  DB file name                : "C:\Users\antoi\Documents\Projet FEM\Projet-FEM\Half model - Copie\Half_Geometry_sim1-Solution_1.sdb"
- DB size                     :         864599 (Max=       262257599)
- Memory allocated            :         865000
+ DB size                     :         409199 (Max=       262257599)
+ Memory allocated            :         410000
  Size of the garbage         :              3 (  0.00% of the DB size)
  Relational level            :              0
- Object counter              :           9729
+ Object counter              :           1077
  Pagination flag             :        on (not yet triggered)
  Swap count                  :             40 page I/O on disk
- Used pages in memory        :            108 on             108
+ Used pages in memory        :             39 on              39
  Used records in swap file   :              0 on           39713
- Page alignment garbage      :            401 (  0.05% of the DB size)
+ Page alignment garbage      :            801 (  0.20% of the DB size)
  Archive length :            :              0
  Archive garbage :           :              0
  Archive loading endian swap :              0
@@ -82,7 +82,7 @@
  >>> Sold-to info: 0001385912 <<<
 
 
-                             WORKSPACE MEMORY INCREASED TO :        297000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :        100000 WORDS
 
 
 
@@ -139,47 +139,41 @@
                              WORKSPACE MEMORY REDUCED   TO :             0 WORDS
 
 
-                             WORKSPACE MEMORY INCREASED TO :        297000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :        100000 WORDS
 
 
-                             WORKSPACE MEMORY INCREASED TO :        307000 WORDS
-
-
-                             WORKSPACE MEMORY REDUCED   TO :        261000 WORDS
+                             WORKSPACE MEMORY REDUCED   TO :         29000 WORDS
 
 
 
           CHARACTERISTICS OF THIS PROBLEM
           ===============================
 
-          NUMBER OF NODES                                4943
-          MAXIMUM NODE NUMBER                            4943
+          NUMBER OF NODES                                 564
+          MAXIMUM NODE NUMBER                             564
           MINIMUM NODE NUMBER                               1
-          NUMBER OF INTERFACES                           9722
+          NUMBER OF INTERFACES                           1070
           NUMBER OF LOCAL AXIS SYSTEMS                      0
-          TOTAL NUMBER OF ELEMENTS                       4780
-          MAXIMUM ELEMENT NUMBER                         4780
+          TOTAL NUMBER OF ELEMENTS                        507
+          MAXIMUM ELEMENT NUMBER                          507
           NUMBER OF GENERAL PROPERTY ENTRIES                0
           NUMBER OF ELEMENT PROPERTY ENTRIES                0
           NUMBER OF ELEMENT ATTRIBUTE ENTRIES               0
 
 
-          NUMBER OF ELEMENTS OF TYPE   15                4568
-          NUMBER OF ELEMENTS OF TYPE   26                 212
+          NUMBER OF ELEMENTS OF TYPE   15                 469
+          NUMBER OF ELEMENTS OF TYPE   26                  38
 
-                             WORKSPACE MEMORY INCREASED TO :        281000 WORDS
-
-
-                             WORKSPACE MEMORY INCREASED TO :        308000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :         31000 WORDS
 
 
-                             WORKSPACE MEMORY INCREASED TO :        328000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :         34000 WORDS
 
 
-                             WORKSPACE MEMORY INCREASED TO :        402000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :         45000 WORDS
 
 
-                             WORKSPACE MEMORY INCREASED TO :        444000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :         48000 WORDS
 
 
 
@@ -190,19 +184,19 @@
 
           SPARSE SOLVER
 
-                             WORKSPACE MEMORY INCREASED TO :     130130000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :     130589000 WORDS
 
 
           CORE MEMORY ESTIMATION FOR BCSLIB SOLVER
           ----------------------------------------
 
-    WORK SPACE REQUIRED OUTSIDE SOLVER                                      178367
+    WORK SPACE REQUIRED OUTSIDE SOLVER                                       19061
 
-    WORK SPACE AVAILABLE INSIDE SOLVER                                   130513633
-    WORK SPACE REQUIRED FOR REORGANIZATION                                  439389
-    WORK SPACE REQUIRED FOR SYMBOLIC FACTORIZATION                          423138
-    WORK SPACE MINIMUM FOR OUT OF CORE FACTORIZATION                        965286
-    WORK SPACE RECOMMENDED FOR IN CORE FACTORIZATION                       2053860
+    WORK SPACE AVAILABLE INSIDE SOLVER                                   130676939
+    WORK SPACE REQUIRED FOR REORGANIZATION                                   46568
+    WORK SPACE REQUIRED FOR SYMBOLIC FACTORIZATION                           46285
+    WORK SPACE MINIMUM FOR OUT OF CORE FACTORIZATION                        104464
+    WORK SPACE RECOMMENDED FOR IN CORE FACTORIZATION                        178007
 
 
  CHECK OF MATERIALS
@@ -239,12 +233,12 @@
 
 
  NUMBER OF SUBSTRUCTURES                        1
- NUMBER OF DEGREES OF FREEDOM               28034
- NUMBER OF RETAINED D.O.F.                  28034
- MAX. DIM. OF A SUBSTRUCTURE                28034
- MAX. NUMBER FOR A D.O.F.                   28158
- MAX. NUMBER FOR A NODE                      4943
- NUMBER OF ELEMENTS                          4780
+ NUMBER OF DEGREES OF FREEDOM                2962
+ NUMBER OF RETAINED D.O.F.                   2962
+ MAX. DIM. OF A SUBSTRUCTURE                 2962
+ MAX. NUMBER FOR A D.O.F.                    3004
+ MAX. NUMBER FOR A NODE                       564
+ NUMBER OF ELEMENTS                           507
  MAX. DIM. OF AN ELEMENT                       12
  PRINTOUT OPTIONS                          0    0    0    0   -1   -1
  ELEMENT LOADING OPTION (IFO)                   1
@@ -267,10 +261,10 @@
  --------------------------------------------------
 
                                   G++M++K++U
- PROCESSING OF LOADS                  318476  WORDS
- MATRIX CONDENSATION                 2232227
+ PROCESSING OF LOADS                   33810  WORDS
+ MATRIX CONDENSATION                  197068
  BACK SUBSTITUTION                         0
- PRINTOUT OF RESULTS                  124344
+ PRINTOUT OF RESULTS                   13578
 
 
  RECORD NO   1  WRITTEN IN STORAGE FILE NO  18
@@ -281,20 +275,20 @@
 
    UNIT  FILE                                        NUMBER OF 1 MEGABYTES BLOCK
 
-    18   C... Half model - Copie\Half_Geometry_sim1-Solution_1_as.u18         14
-     1   C... ion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w01          1
-     4   C... lution_1000008104.dir\Half_Geometry_sim1-Solution_1.u04         17
-     8   C... ion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w08          5
-     9   C... lution_1000008104.dir\Half_Geometry_sim1-Solution_1.u09          1
-    10   C... ion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w10          1
-    11   C... lution_1000008104.dir\Half_Geometry_sim1-Solution_1.u11          4
-    13   C... lution_1000008104.dir\Half_Geometry_sim1-Solution_1.u13          1
-    14   C... ion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w14          1
-    52   C... lution_1000008104.dir\Half_Geometry_sim1-Solution_1.u52          1
+    18   C... Half model - Copie\Half_Geometry_sim1-Solution_1_as.u18          2
+     1   C... ion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w01          1
+     4   C... lution_1000003360.dir\Half_Geometry_sim1-Solution_1.u04          2
+     8   C... ion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w08          1
+     9   C... lution_1000003360.dir\Half_Geometry_sim1-Solution_1.u09          1
+    10   C... ion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w10          1
+    11   C... lution_1000003360.dir\Half_Geometry_sim1-Solution_1.u11          1
+    13   C... lution_1000003360.dir\Half_Geometry_sim1-Solution_1.u13          1
+    14   C... ion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w14          1
+    52   C... lution_1000003360.dir\Half_Geometry_sim1-Solution_1.u52          1
 
          ESTIMATIONS FOR BCSLIB SOLVER
-     2   C... ion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w02          3
-     3   C... ion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w03          1
+     2   C... ion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w02          1
+     3   C... ion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w03          1
 
 
  SUMMARY OF DISK SPACE USAGE
@@ -304,25 +298,25 @@
                                 TOTAL           FREE        ALLOCATED BY SAMCEF
  -------------------------------------------------------------------------------
 
-    C:\                       230295.         100651.      >            50 OK
+    C:\                       230295.          99888.      >            14 OK
 
  -------------------------------------------------------------------------------
 
 0RECORD NO   8  WRITTEN IN STORAGE FILE NO  18
-  CPU=  0 H  0 Min  0.59 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 29.7%
+  CPU=  0 H  0 Min  0.16 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R=  7.8%
 1
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                              26195000 WORDS
+ WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
 
-0AVAILABLE WORKSPACE FOR THE ELEMENT GENERATION STEP:   26195000  WORDS
+0AVAILABLE WORKSPACE FOR THE ELEMENT GENERATION STEP:   26199000  WORDS
 
  STRUCTURE CHARACTERISTICS
  =========================
  TOTAL LENGTH     0.000000E+00
- TOTAL AREA       4.268374E+05
- TOTAL VOLUME     4.268374E+05
- TOTAL MASS       3.350674E+00
+ TOTAL AREA       4.270466E+05
+ TOTAL VOLUME     4.270466E+05
+ TOTAL MASS       3.352316E+00
 
 
  INERTIA PROPERTIES PER ELEMENT GROUPS
@@ -330,125 +324,122 @@
           GROUP                         MASS                       INERTIA                                    C.O.G.
      NUMBER   NAME                                  ABOUT X       ABOUT Y       ABOUT Z       ABOUT X       ABOUT Y       ABOUT Z
  ===================================================================================================================================
-          1   2D_MESH(1)_0         3.3506735E+00 2.8789592E+05 1.4843680E+06 1.7722639E+06 5.8082739E+02-1.5033047E+02 0.0000000E+00
+          1   2D_MESH(1)_0         3.3523162E+00 2.8794501E+05 1.4844167E+06 1.7723617E+06 5.8062048E+02-1.5025689E+02 0.0000000E+00
 
 
  INERTIAL PROPERTIES OF THE STRUCTURE
  ====================================
 
- TOTAL MASS                     3.350674E+00
+ TOTAL MASS                     3.352316E+00
 
- CENTER-OF-MASS    :  XG        5.808274E+02
-                      YG       -1.503305E+02
+ CENTER-OF-MASS    :  XG        5.806205E+02
+                      YG       -1.502569E+02
                       ZG        0.000000E+00
 
 
  MOMENTS AND PRODUCTS OF INERTIA (IN STRUCTURAL AXIS, AT X=0, Y=0, Z=0)
 
-                     JXX        2.878959E+05
-                     JXY       -4.947135E+05
-                     JYY        1.484368E+06
+                     JXX        2.879450E+05
+                     JXY       -4.947134E+05
+                     JYY        1.484417E+06
                      JXZ        0.000000E+00
                      JYZ        0.000000E+00
-                     JZZ        1.772264E+06
+                     JZZ        1.772362E+06
 
 
  PRINCIPAL AXES AND MOMENTS OF INERTIA WITH RESPECT TO THE CENTER-OF-MASS
 
- AXIS 1:   0.000000E+00   0.000000E+00   1.000000E+00    INERTIA:   5.661564E+05
+ AXIS 1:   0.000000E+00   0.000000E+00   1.000000E+00    INERTIA:   5.665426E+05
 
- AXIS 2:   5.783638E-01   8.157789E-01   0.000000E+00    INERTIA:   4.972989E+05
+ AXIS 2:   5.782372E-01   8.158687E-01   0.000000E+00    INERTIA:   4.976255E+05
 
- AXIS 3:   8.157789E-01  -5.783638E-01   0.000000E+00    INERTIA:   6.885753E+04
+ AXIS 3:   8.158687E-01  -5.782372E-01   0.000000E+00    INERTIA:   6.891716E+04
 
  RECORD NO   9  WRITTEN IN STORAGE FILE NO  18
  END OF THE GENERATION OF ELEMENTS
-  CPU=  0 H  0 Min  0.94 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 46.9%
+  CPU=  0 H  0 Min  0.20 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 10.2%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                              26195000 WORDS
+ WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
 
 
  CHECK OF THE DIAGONAL OF THE STIFFNESS MATRIX
  =============================================
 
- GREATEST DIAGONAL TERM   2.320618E+09   (ELEMENT      3961      COMP.   1)
- LOWEST DIAGONAL TERM     1.178487E+08   (NODE       4943        COMP.   2)
+ GREATEST DIAGONAL TERM   2.254120E+09   (ELEMENT        81      COMP.   1)
+ LOWEST DIAGONAL TERM     1.136576E+08   (NODE        472        COMP.   2)
 
- MEAN OF DIAGONAL TERMS   8.003045E+08
+ MEAN OF DIAGONAL TERMS   7.874786E+08
 
-       124 FIXATION(S) ISSUING FROM THE DATA ANALYSIS
+        42 FIXATION(S) ISSUING FROM THE DATA ANALYSIS
          0 NEW FIXATION(S) ISSUING FROM THE DIAGONAL INSPECTION
-  CPU=  0 H  0 Min  0.97 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 48.4%
+  CPU=  0 H  0 Min  0.20 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 10.2%
 
  RESOLUTION BY SPARSE SOLVER
  ===========================
 
 
  Time before the resolution
-  CPU=  0 H  0 Min  1.00 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 50.0%
+  CPU=  0 H  0 Min  0.20 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 10.2%
 
- Work space available for bcslib                             26044669
- Work space bcslib, minimum 1                                  439389
- Work space bcslib, minimum 2                                  423138
- Work space bcslib out-of-core factorization                   965286
- Work space bcslib incore factorization                       1867146
+ Work space available for bcslib                             26182903
+ Work space bcslib, minimum 1                                   46568
+ Work space bcslib, minimum 2                                   46285
+ Work space bcslib out-of-core factorization                   104464
+ Work space bcslib incore factorization                        161825
 
  Time after the resolution
-  CPU=  0 H  0 Min  1.19 Sec.     Elapsed=  0 H  0 Min  3.00 Sec.     R= 39.6%
+  CPU=  0 H  0 Min  0.25 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 12.5%
 
  ===========================================================
  = BCSLIB-EXT Release 4.1     ( 15 Nov 2001 )              =
  = multifrontal statistics                                 =
  ===========================================================
 
-     number of equations                     =           28034
-     no. of nonzeroes in lower triangle of a =          251958
-     number of compressed nodes              =            9455
-     no. of compressed nonzeroes in l. tri.  =           36806
-     amount of workspace currently in use    =         1675689
-     max. amt. of workspace used             =        26044661
-     no. of nonzeroes in the factor l        =          918496.
-     number of super nodes                   =            2156
-     number of compressed subscripts         =           43796
-     size of stack storage                   =           39324
-     maximum order of a front matrix         =             226
-     maximum size of a front matrix          =           25651
-     maximum size of a front trapezoid       =           17550
-     no. of floating point ops for factor    =      5.0087D+07
-     no. of floating point ops for solve     =      3.8142D+06
-     actual no. of nonzeroes in the factor l =          918496.
-     actual number of compressed subscripts  =           43796
-     actual size of stack storage used       =           70771
+     number of equations                     =            2962
+     no. of nonzeroes in lower triangle of a =           25758
+     number of compressed nodes              =            1010
+     no. of compressed nonzeroes in l. tri.  =            3758
+     amount of workspace currently in use    =          138932
+     max. amt. of workspace used             =        26182897
+     no. of nonzeroes in the factor l        =           59068.
+     number of super nodes                   =             380
+     number of compressed subscripts         =            5028
+     size of stack storage                   =            4115
+     maximum order of a front matrix         =              68
+     maximum size of a front matrix          =            2346
+     maximum size of a front trapezoid       =            1843
+     no. of floating point ops for factor    =      1.8132D+06
+     no. of floating point ops for solve     =      2.5108D+05
+     actual no. of nonzeroes in the factor l =           59068.
+     actual number of compressed subscripts  =            5028
+     actual size of stack storage used       =           10972
      near zero pivot monitoring activated
      number of pivots adjusted               =              0.
      factorization panel size                =             128
      factorization update panel size         =              64
      solution block size                     =               8
 
-     time (in seconds) for structure input   =        0.031250
-     time (in seconds) for ordering          =        0.062500
+     time (in seconds) for structure input   =        0.015625
+     time (in seconds) for ordering          =        0.000000
      time (in seconds) for symbolic factor   =        0.000000
-     time (in seconds) for value input       =        0.031250
+     time (in seconds) for value input       =        0.000000
 
      number of cpus used for factor & solve  =               1
-     time (in seconds) for numeric factor    =        0.046875
-     computational rate (mflops) for factor  =     1068.522795
+     time (in seconds) for numeric factor    =        0.031250
+     computational rate (mflops) for factor  =       58.022464
      condition number estimate               =      0.0000D+00
-
-     time (in seconds) for numeric solve     =        0.015625
-     computational rate (mflops) for solve   =      244.105856
 
      i/o statistics:   unit number        length        amount
                                          (Mbytes)      (Mbytes)
                        -----------       --------      --------
 
-                                3.           0.70          1.75
+                                3.           0.08          0.20
 
  END OF THE STIFFNESS MATRIX CONDENSATION
-  CPU=  0 H  0 Min  1.20 Sec.     Elapsed=  0 H  0 Min  3.00 Sec.     R= 40.1%
+  CPU=  0 H  0 Min  0.25 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 12.5%
 
- LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   6.666793E+03
+ LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   6.469538E+03
  ---------------------                    ----------------------
 
 
@@ -456,40 +447,40 @@
 0RESULTANTS AT NODES
  -------------------
 0                         ALONG X          ALONG Y          ALONG Z
-0A) LOADS             5.000000E+05     4.712989E+04     0.000000E+00
-0B) REACTIONS        -5.000000E+05    -4.712989E+04     0.000000E+00
+0A) LOADS             5.000000E+05     4.711378E+04     0.000000E+00
+0B) REACTIONS        -5.000000E+05    -4.711378E+04     0.000000E+00
 
 
  **********************************************************************
 
  END OF DISPLACEMENT STORAGE
-  CPU=  0 H  0 Min  1.23 Sec.     Elapsed=  0 H  0 Min  3.00 Sec.     R= 41.1%
+  CPU=  0 H  0 Min  0.25 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 12.5%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                              26195000 WORDS
+ WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
 
 
  END OF STRESS STORAGE ON U18 FILE
-  CPU=  0 H  0 Min  1.38 Sec.     Elapsed=  0 H  0 Min  3.00 Sec.     R= 45.8%
+  CPU=  0 H  0 Min  0.27 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 13.3%
 
  ===============================================================================
  Status of the DB            : "Half_Geometry_sim1-Solution_1"
  ================
- DB created by BACON for antoi (MAR 26 2018 15:09:28)
- modified   by BACON for antoi (MAR 26 2018 15:09:28)
- modified   by ASEF for antoi (MAR 26 2018 15:09:28)
+ DB created by BACON for antoi (MAR 27 2018 13:49:19)
+ modified   by BACON for antoi (MAR 27 2018 13:49:19)
+ modified   by ASEF for antoi (MAR 27 2018 13:49:19)
  Release                     :   18.1- 1
  DB file name                : "C:\Users\antoi\Documents\Projet FEM\Projet-FEM\Half model - Copie\Half_Geometry_sim1-Solution_1.sdb"
- DB size                     :        1135199 (Max=       262257599)
+ DB size                     :         461999 (Max=       262257599)
  Memory allocated            :      104800000
  Size of the garbage         :              3 (  0.00% of the DB size)
  Relational level            :              0
- Object counter              :           9737
+ Object counter              :           1085
  Pagination flag             :        on (not yet triggered)
  Swap count                  :             40 page I/O on disk
- Used pages in memory        :            149 on           15855
+ Used pages in memory        :             47 on           15855
  Used records in swap file   :              0 on           39713
- Page alignment garbage      :           5401 (  0.48% of the DB size)
+ Page alignment garbage      :           5558 (  1.20% of the DB size)
  Archive length :            :              0
  Archive garbage :           :              0
  Archive loading endian swap :              0
@@ -504,25 +495,25 @@
  File size statistics
  File name                                                            Size
  -------------------------------------------------------------------------------
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w01      450568 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w03      700752 Bytes
- H... olution_1000008104.dir\Half_Geometry_sim1-Solution_1.u04     9942000 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w08     3806640 Bytes
- H... olution_1000008104.dir\Half_Geometry_sim1-Solution_1.u09      455072 Bytes
- H... olution_1000008104.dir\Half_Geometry_sim1-Solution_1.u11     4057936 Bytes
- H... olution_1000008104.dir\Half_Geometry_sim1-Solution_1.u13     1012144 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w14      675864 Bytes
- Half_Geometry_sim1-Solution_1_as.u18                             11321728 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w01       48104 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w03       80464 Bytes
+ H... olution_1000003360.dir\Half_Geometry_sim1-Solution_1.u04     1040536 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w08      417384 Bytes
+ H... olution_1000003360.dir\Half_Geometry_sim1-Solution_1.u09       48592 Bytes
+ H... olution_1000003360.dir\Half_Geometry_sim1-Solution_1.u11      422360 Bytes
+ H... olution_1000003360.dir\Half_Geometry_sim1-Solution_1.u13      105880 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w14       72168 Bytes
+ Half_Geometry_sim1-Solution_1_as.u18                              1232288 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\pilote.dat       189154 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w41      968696 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w42     1413360 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w43       13392 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w44     1413360 Bytes
- C... FEM\Half model - Copie\Half_Geometry_sim1-Solution_1.sdb     8133400 Bytes
- H... olution_1000008104.dir\Half_Geometry_sim1-Solution_1.u50          48 Bytes
- H... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w51      210768 Bytes
- H... olution_1000008104.dir\Half_Geometry_sim1-Solution_1.u52      229376 Bytes
- Half_Geometry_sim1-Solution_1.sam                                 1427184 Bytes
- C... tion_1000008104.dir\Half_Geometry_sim1-Solution_1_as.w80     1056000 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w41      110208 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w42      160416 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w43       13392 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w44      160416 Bytes
+ C... FEM\Half model - Copie\Half_Geometry_sim1-Solution_1.sdb     2744536 Bytes
+ H... olution_1000003360.dir\Half_Geometry_sim1-Solution_1.u50          48 Bytes
+ H... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w51       26704 Bytes
+ H... olution_1000003360.dir\Half_Geometry_sim1-Solution_1.u52       32768 Bytes
+ Half_Geometry_sim1-Solution_1.sam                                  174240 Bytes
+ C... tion_1000003360.dir\Half_Geometry_sim1-Solution_1_as.w80     1056000 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samcef.proc       84311 Bytes
  -------------------------------------------------------------------------------
