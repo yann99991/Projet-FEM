@@ -1,0 +1,26 @@
+!***********************************************************************
+! Bacon Spy File
+! Problem name: model1_sim1-Solution_1
+! Creation Date: MAR 31 2018 20:18:07
+!
+INPUT INIT
+EXIT
+;INPUT  "Y:\Good\model1_sim1-Solution_1.dat"
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!
+!                     NX 12 TRANSLATOR
+!                     This file is compatible with Samcef 18 (18.0-03) and next versions
+!
+!              FEM FILE: Y:\Good\model1_sim1.sim
+!              SIM FILE: Y:\Good\model1_sim1.sim
+!         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
+!         SOLUTION NAME: Solution 1
+!         SOLUTION TYPE: Linear Static Analysis
+!     SOLVER INPUT FILE: model1_sim1-Solution_1.dat
+!         CREATION DATE: 31-mars-2018
+!         CREATION TIME: 20:18:02
+!              HOSTNAME: ISMAELLOB5E2
+!              USERNAME: Ismael
+!
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+MODE M -1 LECTURE 256
