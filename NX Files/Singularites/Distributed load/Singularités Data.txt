@@ -1,25 +1,36 @@
 Appuyer sur point d'interogation jaune pour avoir valeurs. 
 
-Force 50N 
+Force 20000N
 Maillage 2D mesh :
 
 Point (0,250):
 
- -> maillage 3 mm : contraintes élément nodal 262.62
-			contraintes élémental : 148.837
- -> maillage 5 mm : contraintes élément nodal 155.86
-			contraintes élémental : 90.05
- -> maillage 10 mm : contraintes élément nodal 79.4
-			contraintes élémental : 46.625
- -> maillage 20 mm : contraintes élément nodal : 41.38
-			contraintes élémental : 25.38
+ -> maillage 3 mm : contraintes élément nodal : 19.43
+			contraintes élémental : 19.32
+ -> maillage 5 mm : contraintes élément nodal : 19.40
+			contraintes élémental : 19.24
+ -> maillage 10 mm : contraintes élément nodal : 19.34
+			contraintes élémental : 19.05
+ -> maillage 20 mm : contraintes élément nodal : 19.28
+			contraintes élémental : 18.83
 
 Point (0,300) : 
- -> maillage 3 mm : contraintes élément nodal 59.93
-			contraintes élémental : 56.39
- -> maillage 5mm : contraintes nodal : 59.05
-			contraintes elemental : 53.92
- -> maillage 10 mm : contraintes élément nodal 58.34
-			contraintes élémental : 48.31
- -> maillage 20 mm : contraintes élément nodal 55.42
-			contraintes élémental : 40.97
+-> maillage 3 mm : contraintes élément nodal : 19.55
+			contraintes élémental : 19.42
+ -> maillage 5 mm : contraintes élément nodal : 19.54
+			contraintes élémental : 19.33
+ -> maillage 10 mm : contraintes élément nodal : 19.48
+			contraintes élémental : 19.11
+ -> maillage 20 mm : contraintes élément nodal : 19.26
+			contraintes élémental : 18.74
+
+
+Début de encastrement : 
+ -> maillage 3 mm : contraintes élément nodal : 71.58
+			contraintes élémental : 53.42
+ -> maillage 5 mm : contraintes élément nodal : 59.45
+			contraintes élémental : 43.64
+ -> maillage 10 mm : contraintes élément nodal :44.69
+			contraintes élémental : 33.13
+ -> maillage 20 mm : contraintes élément nodal : 33.80
+			contraintes élémental : 24.4
