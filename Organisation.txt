@@ -1,0 +1,25 @@
+
+ -> Documentation : énoncés + ressources utiles 
+ -> NX Files : 
+	-> Models for geometry : Contient les 3 modèles que nous allons utiliser pour faire les maillages, 
+				3 geometries différentes, ne contient que les fichier .prt
+	-> Singularites : Etude de l'existence de diverses singularités dans notre modèle
+	-> Meshs : contient les différents maillages réalisés 
+			-> T3
+				-> Coarse
+				-> Intermediate
+				-> Advanced
+			-> T6
+				-> Coarse
+				-> Intermediate
+				-> Advanced
+			-> Q6
+				-> Coarse
+				-> Intermediate
+				-> Advanced
+			-> Q8
+				-> Coarse
+				-> Intermediate
+				-> Advanced
+	
+ 
