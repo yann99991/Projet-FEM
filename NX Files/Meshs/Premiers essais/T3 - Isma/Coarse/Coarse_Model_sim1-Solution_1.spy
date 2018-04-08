@@ -1,24 +1,24 @@
 !***********************************************************************
 ! Bacon Spy File
 ! Problem name: Coarse_Model_sim1-Solution_1
-! Creation Date: APR  7 2018 09:31:38
+! Creation Date: APR  8 2018 14:51:47
 !
 INPUT INIT
 EXIT
-;INPUT  "Y:\NX\Models For geometry\Basic Geometry\Coarse_Model_sim1-Solution_1.dat"
+;INPUT  "Y:\NX\Meshs\Premiers essais\T3 - Isma\Coarse\Coarse_Model_sim1-Solution_1.dat"
 ! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 !
 !                     NX 12 TRANSLATOR
 !                     This file is compatible with Samcef 18 (18.0-03) and next versions
 !
-!              FEM FILE: Y:\NX\Models For geometry\Basic Geometry\Coarse Model_sim1.sim
-!              SIM FILE: Y:\NX\Models For geometry\Basic Geometry\Coarse Model_sim1.sim
+!              FEM FILE: Y:\NX\Meshs\Premiers essais\T3 - Isma\Coarse\Coarse Model_sim1.sim
+!              SIM FILE: Y:\NX\Meshs\Premiers essais\T3 - Isma\Coarse\Coarse Model_sim1.sim
 !         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
 !         SOLUTION NAME: Solution 1
 !         SOLUTION TYPE: Linear Static Analysis
 !     SOLVER INPUT FILE: Coarse_Model_sim1-Solution_1.dat
-!         CREATION DATE: 07-avril-2018
-!         CREATION TIME: 09:31:33
+!         CREATION DATE: 08-avril-2018
+!         CREATION TIME: 14:51:43
 !              HOSTNAME: ISMAELLOB5E2
 !              USERNAME: Ismael
 !

@@ -1,0 +1,36 @@
+Maillage T3 :
+	Coarse :
+			* nb elements : 2510
+			* nb noeuds : 1369
+			* nb ddl : 2678
+			* espace disque : 22.00 Mb
+			* aire : 4.2693142505359E5 mm2
+			* masse : 1.0054235060012E2 kg
+			* TPE : 1.10806368E+06
+	Intermediate :
+			* nb elements : 4707
+			* nb noeuds : 2505
+			* nb ddl : 4948
+			* espace disque : 33.00 Mb
+			* aire : 4.2687200478327E5 mm2
+			* masse : 1.0052835712646E2 kg
+			* TPE : 1.11072838E+06
+			
+Maillage T6 :
+	Coarse :
+			* nb elements : 2510
+			* nb noeuds : 5247
+			* nb ddl : 10378
+			* espace disque : 32.00 Mb
+			* aire : 4.2682531645812E5 mm2
+			* masse : 1.0051736202589E2 kg
+			* TPE : 1.12160822E+06
+	Intermediate :
+			* nb elements : 5179
+			* nb noeuds : 10692
+			* nb ddl : 21244
+			* espace disque : 54.00 Mb
+			* aire : 4.2682529348507E5 mm2
+			* masse : 1.0051735661574E2 kg
+			* TPE : 1.73619801E+06
+			

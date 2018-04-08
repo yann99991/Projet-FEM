@@ -45,7 +45,7 @@
 
 
 
- Start of analysis : APR  7 2018 09:31:39
+ Start of analysis : APR  8 2018 14:51:48
  On the computer   : ISMAELLOB5E2
  Using O/S         : Win NT 6.2 64 bits
  For user          : Ismael
@@ -60,11 +60,11 @@
  ===============================================================================
  Status of the DB            : "Coarse_Model_sim1-Solution_1"
  ================
- DB created by BACON for Ismael (APR  7 2018 09:31:38)
- modified   by BACON for Ismael (APR  7 2018 09:31:38)
- modified   by ASEF for Ismael (APR  7 2018 09:31:39)
+ DB created by BACON for Ismael (APR  8 2018 14:51:47)
+ modified   by BACON for Ismael (APR  8 2018 14:51:47)
+ modified   by ASEF for Ismael (APR  8 2018 14:51:48)
  Release                     :   18.1- 1
- DB file name                : "Y:\NX\Models For geometry\Basic Geometry\Coarse_Model_sim1-Solution_1.sdb"
+ DB file name                : "Y:\NX\Meshs\Premiers essais\T3 - Isma\Coarse\Coarse_Model_sim1-Solution_1.sdb"
  DB size                     :         593999 (Max=       262257599)
  Memory allocated            :         595000
  Size of the garbage         :              4 (  0.00% of the DB size)
@@ -271,20 +271,20 @@
 
    UNIT  FILE                                        NUMBER OF 1 MEGABYTES BLOCK
 
-    18   Y... etry\Basic Geometry\Coarse_Model_sim1-Solution_1_as.u18          6
-     1   Y... tion_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w01          1
-     4   Y... olution_1000009204.dir\Coarse_Model_sim1-Solution_1.u04          4
-     8   Y... tion_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w08          3
-     9   Y... olution_1000009204.dir\Coarse_Model_sim1-Solution_1.u09          1
-    10   Y... tion_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w10          1
-    11   Y... olution_1000009204.dir\Coarse_Model_sim1-Solution_1.u11          1
-    13   Y... olution_1000009204.dir\Coarse_Model_sim1-Solution_1.u13          1
-    14   Y... tion_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w14          1
-    52   Y... olution_1000009204.dir\Coarse_Model_sim1-Solution_1.u52          1
+    18   Y... is\T3 - Isma\Coarse\Coarse_Model_sim1-Solution_1_as.u18          6
+     1   Y... tion_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w01          1
+     4   Y... olution_1000008120.dir\Coarse_Model_sim1-Solution_1.u04          4
+     8   Y... tion_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w08          3
+     9   Y... olution_1000008120.dir\Coarse_Model_sim1-Solution_1.u09          1
+    10   Y... tion_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w10          1
+    11   Y... olution_1000008120.dir\Coarse_Model_sim1-Solution_1.u11          1
+    13   Y... olution_1000008120.dir\Coarse_Model_sim1-Solution_1.u13          1
+    14   Y... tion_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w14          1
+    52   Y... olution_1000008120.dir\Coarse_Model_sim1-Solution_1.u52          1
 
          ESTIMATIONS FOR BCSLIB SOLVER
-     2   Y... tion_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w02          1
-     3   Y... tion_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w03          1
+     2   Y... tion_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w02          1
+     3   Y... tion_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w03          1
 
 
  SUMMARY OF DISK SPACE USAGE
@@ -294,12 +294,12 @@
                                 TOTAL           FREE        ALLOCATED BY SAMCEF
  -------------------------------------------------------------------------------
 
-    Y:\                       476802.         106400.      >            22 OK
+    Y:\                       476802.         111857.      >            22 OK
 
  -------------------------------------------------------------------------------
 
 0RECORD NO   8  WRITTEN IN STORAGE FILE NO  18
-  CPU=  0 H  0 Min  0.27 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R= 26.6%
+  CPU=  0 H  0 Min  0.41 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 20.3%
 1
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
@@ -353,7 +353,7 @@
 
  RECORD NO   9  WRITTEN IN STORAGE FILE NO  18
  END OF THE GENERATION OF ELEMENTS
-  CPU=  0 H  0 Min  0.41 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 20.3%
+  CPU=  0 H  0 Min  0.66 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 32.8%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
  WORKING MEMORY ZONE AVAILABLE    :                              26198000 WORDS
@@ -369,14 +369,14 @@
 
         60 FIXATION(S) ISSUING FROM THE DATA ANALYSIS
          0 NEW FIXATION(S) ISSUING FROM THE DIAGONAL INSPECTION
-  CPU=  0 H  0 Min  0.41 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 20.3%
+  CPU=  0 H  0 Min  0.66 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 32.8%
 
  RESOLUTION BY SPARSE SOLVER
  ===========================
 
 
  Time before the resolution
-  CPU=  0 H  0 Min  0.42 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 21.1%
+  CPU=  0 H  0 Min  0.67 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 33.6%
 
  Work space available for bcslib                             26184332
  Work space bcslib, minimum 1                                   46819
@@ -385,7 +385,7 @@
  Work space bcslib incore factorization                        193477
 
  Time after the resolution
-  CPU=  0 H  0 Min  0.47 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 23.4%
+  CPU=  0 H  0 Min  0.72 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 35.9%
 
  ===========================================================
  = BCSLIB-EXT Release 4.1     ( 15 Nov 2001 )              =
@@ -419,7 +419,7 @@
      time (in seconds) for structure input   =        0.000000
      time (in seconds) for ordering          =        0.015625
      time (in seconds) for symbolic factor   =        0.000000
-     time (in seconds) for value input       =        0.000000
+     time (in seconds) for value input       =        0.015625
 
      number of cpus used for factor & solve  =               1
      time (in seconds) for numeric factor    =        0.015625
@@ -433,7 +433,7 @@
                                 3.           0.11          0.28
 
  END OF THE STIFFNESS MATRIX CONDENSATION
-  CPU=  0 H  0 Min  0.47 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 23.4%
+  CPU=  0 H  0 Min  0.72 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 35.9%
 
  LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   1.108064E+06
  ---------------------                    ----------------------
@@ -450,23 +450,23 @@
  **********************************************************************
 
  END OF DISPLACEMENT STORAGE
-  CPU=  0 H  0 Min  0.48 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 24.2%
+  CPU=  0 H  0 Min  0.73 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 36.7%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
  WORKING MEMORY ZONE AVAILABLE    :                              26198000 WORDS
 
 
  END OF STRESS STORAGE ON U18 FILE
-  CPU=  0 H  0 Min  0.61 Sec.     Elapsed=  0 H  0 Min  2.00 Sec.     R= 30.5%
+  CPU=  0 H  0 Min  0.98 Sec.     Elapsed=  0 H  0 Min  3.00 Sec.     R= 32.8%
 
  ===============================================================================
  Status of the DB            : "Coarse_Model_sim1-Solution_1"
  ================
- DB created by BACON for Ismael (APR  7 2018 09:31:38)
- modified   by BACON for Ismael (APR  7 2018 09:31:38)
- modified   by ASEF for Ismael (APR  7 2018 09:31:39)
+ DB created by BACON for Ismael (APR  8 2018 14:51:47)
+ modified   by BACON for Ismael (APR  8 2018 14:51:47)
+ modified   by ASEF for Ismael (APR  8 2018 14:51:48)
  Release                     :   18.1- 1
- DB file name                : "Y:\NX\Models For geometry\Basic Geometry\Coarse_Model_sim1-Solution_1.sdb"
+ DB file name                : "Y:\NX\Meshs\Premiers essais\T3 - Isma\Coarse\Coarse_Model_sim1-Solution_1.sdb"
  DB size                     :         739199 (Max=       262257599)
  Memory allocated            :      104800000
  Size of the garbage         :              4 (  0.00% of the DB size)
@@ -483,7 +483,7 @@
  ===============================================================================
 
  SAVING AND CLOSING OF DATA BASE
- FILE "Y:\NX\Models For geometry\Basic Geometry\Coarse_Model_sim1-Solution_1.sdb"
+ FILE "Y:\NX\Meshs\Premiers essais\T3 - Isma\Coarse\Coarse_Model_sim1-Solution_1.sdb"
 
 0DIAGNOSTICS:     0 WARNING(S),     0 ERROR(S)
 
@@ -491,25 +491,25 @@
  File size statistics
  File name                                                            Size
  -------------------------------------------------------------------------------
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w01       43848 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w03      111984 Bytes
- C... Solution_1000009204.dir\Coarse_Model_sim1-Solution_1.u04     3052208 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w08     2332808 Bytes
- C... Solution_1000009204.dir\Coarse_Model_sim1-Solution_1.u09       44912 Bytes
- C... Solution_1000009204.dir\Coarse_Model_sim1-Solution_1.u11      883536 Bytes
- C... Solution_1000009204.dir\Coarse_Model_sim1-Solution_1.u13      301216 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w14       65784 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w01       43848 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w03      111984 Bytes
+ C... Solution_1000008120.dir\Coarse_Model_sim1-Solution_1.u04     3052208 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w08     2332808 Bytes
+ C... Solution_1000008120.dir\Coarse_Model_sim1-Solution_1.u09       44912 Bytes
+ C... Solution_1000008120.dir\Coarse_Model_sim1-Solution_1.u11      883536 Bytes
+ C... Solution_1000008120.dir\Coarse_Model_sim1-Solution_1.u13      301216 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w14       65784 Bytes
  Coarse_Model_sim1-Solution_1_as.u18                               4424000 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\pilote.dat       189154 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w41      224312 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w42      571824 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w43       13392 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w44      571824 Bytes
- Y... geometry\Basic Geometry\Coarse_Model_sim1-Solution_1.sdb     4963480 Bytes
- C... Solution_1000009204.dir\Coarse_Model_sim1-Solution_1.u50          48 Bytes
- C... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w51      763184 Bytes
- C... Solution_1000009204.dir\Coarse_Model_sim1-Solution_1.u52       32768 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w41      224312 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w42      571824 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w43       13392 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w44      571824 Bytes
+ Y... essais\T3 - Isma\Coarse\Coarse_Model_sim1-Solution_1.sdb     4963480 Bytes
+ C... Solution_1000008120.dir\Coarse_Model_sim1-Solution_1.u50          48 Bytes
+ C... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w51      763184 Bytes
+ C... Solution_1000008120.dir\Coarse_Model_sim1-Solution_1.u52       32768 Bytes
  Coarse_Model_sim1-Solution_1.sam                                   585648 Bytes
- Y... ution_1000009204.dir\Coarse_Model_sim1-Solution_1_as.w80     1056000 Bytes
+ Y... ution_1000008120.dir\Coarse_Model_sim1-Solution_1_as.w80     1056000 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samcef.proc       84311 Bytes
  -------------------------------------------------------------------------------

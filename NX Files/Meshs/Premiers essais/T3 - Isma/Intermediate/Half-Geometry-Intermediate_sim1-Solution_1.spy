@@ -1,24 +1,24 @@
 !***********************************************************************
 ! Bacon Spy File
 ! Problem name: Half-Geometry-Intermediate_sim1-Solution_1
-! Creation Date: APR  7 2018 10:44:03
+! Creation Date: APR  8 2018 14:49:36
 !
 INPUT INIT
 EXIT
-;INPUT  "Y:\NX\Models For geometry\Intermediate geometry\Half-Geometry-Intermediate_sim1-Solution_1.dat"
+;INPUT  "Y:\NX\Meshs\Premiers essais\T3 - Isma\Intermediate\Half-Geometry-Intermediate_sim1-Solution_1.dat"
 ! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 !
 !                     NX 12 TRANSLATOR
 !                     This file is compatible with Samcef 18 (18.0-03) and next versions
 !
-!              FEM FILE: Y:\NX\Models For geometry\Intermediate geometry\Half-Geometry-Intermediate_sim1.sim
-!              SIM FILE: Y:\NX\Models For geometry\Intermediate geometry\Half-Geometry-Intermediate_sim1.sim
+!              FEM FILE: Y:\NX\Meshs\Premiers essais\T3 - Isma\Intermediate\Half-Geometry-Intermediate_sim1.sim
+!              SIM FILE: Y:\NX\Meshs\Premiers essais\T3 - Isma\Intermediate\Half-Geometry-Intermediate_sim1.sim
 !         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
 !         SOLUTION NAME: Solution 1
 !         SOLUTION TYPE: Linear Static Analysis
 !     SOLVER INPUT FILE: Half-Geometry-Intermediate_sim1-Solution_1.dat
-!         CREATION DATE: 07-avril-2018
-!         CREATION TIME: 10:43:59
+!         CREATION DATE: 08-avril-2018
+!         CREATION TIME: 14:49:31
 !              HOSTNAME: ISMAELLOB5E2
 !              USERNAME: Ismael
 !
