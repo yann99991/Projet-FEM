@@ -34,3 +34,38 @@ Maillage T6 :
 			* masse : 1.0051735661574E2 kg
 			* TPE : 1.73619801E+06
 			
+Maillage Q4 :
+	Coarse :
+			* nb elements : 710
+			* nb noeuds : 774
+			* nb ddl : 4152
+			* espace disque : 16.00 Mb
+			* aire : 4.2722849625655E5 mm2
+			* masse : 1.0061231086842E2 kg
+			* TPE : 1.10866566E+06 
+	Intermediate :
+			* nb elements : 
+			* nb noeuds : 
+			* nb ddl : 
+			* espace disque :  Mb
+			* aire :  mm2
+			* masse :  kg
+			* TPE : 
+						
+Maillage Q8 :
+	Coarse :
+			* nb elements : 710
+			* nb noeuds : 2257
+			* nb ddl : 4422
+			* espace disque : 19.00 Mb
+			* aire : 4.2682541575169E5 mm2
+			* masse : 4.2682541575169E5 kg
+			* TPE : 1.12166774E+06
+	Intermediate :
+			* nb elements : 
+			* nb noeuds : 
+			* nb ddl : 
+			* espace disque :  Mb
+			* aire :  mm2
+			* masse :  kg
+			* TPE : 
