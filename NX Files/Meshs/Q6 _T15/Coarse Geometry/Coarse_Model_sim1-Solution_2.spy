@@ -1,0 +1,26 @@
+!***********************************************************************
+! Bacon Spy File
+! Problem name: Coarse_Model_sim1-Solution_2
+! Creation Date: APR 16 2018 12:23:45
+!
+INPUT INIT
+EXIT
+;INPUT  "C:\Users\antoi\Documents\Coarse Geometry\Coarse_Model_sim1-Solution_2.dat"
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!
+!                     NX 12 TRANSLATOR
+!                     This file is compatible with Samcef 18 (18.0-03) and next versions
+!
+!              FEM FILE: C:\Users\antoi\Documents\Coarse Geometry\Coarse Model_sim1.sim
+!              SIM FILE: C:\Users\antoi\Documents\Coarse Geometry\Coarse Model_sim1.sim
+!         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
+!         SOLUTION NAME: Solution 2
+!         SOLUTION TYPE: Linear Static Analysis
+!     SOLVER INPUT FILE: Coarse_Model_sim1-Solution_2.dat
+!         CREATION DATE: 16-avril-2018
+!         CREATION TIME: 12:23:42
+!              HOSTNAME: DESKTOP-OGM2ALH
+!              USERNAME: antoi
+!
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+MODE M -1 LECTURE 256
