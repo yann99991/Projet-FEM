@@ -1,6 +1,6 @@
 
  -> Documentation : énoncés + ressources utiles 
- -> NX Files : 
+ -> NX Files :   
 	-> Models for geometry : Contient les 3 modèles que nous allons utiliser pour faire les maillages, 
 				3 geometries différentes, ne contient que les fichier .prt
 	-> Singularites : Etude de l'existence de diverses singularités dans notre modèle
