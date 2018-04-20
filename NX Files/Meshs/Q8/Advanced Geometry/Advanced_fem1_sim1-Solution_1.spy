@@ -1,0 +1,26 @@
+!***********************************************************************
+! Bacon Spy File
+! Problem name: Advanced_fem1_sim1-Solution_1
+! Creation Date: APR 20 2018 11:06:47
+!
+INPUT INIT
+EXIT
+;INPUT  "Y:\NX\Meshs\Q8\Advanced Geometry\Advanced_fem1_sim1-Solution_1.dat"
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!
+!                     NX 12 TRANSLATOR
+!                     This file is compatible with Samcef 18 (18.0-03) and next versions
+!
+!              FEM FILE: Y:\NX\Meshs\Q8\Advanced Geometry\Advanced_fem1_sim1.sim
+!              SIM FILE: Y:\NX\Meshs\Q8\Advanced Geometry\Advanced_fem1_sim1.sim
+!         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
+!         SOLUTION NAME: Solution 1
+!         SOLUTION TYPE: Linear Static Analysis
+!     SOLVER INPUT FILE: Advanced_fem1_sim1-Solution_1.dat
+!         CREATION DATE: 20-avril-2018
+!         CREATION TIME: 11:06:43
+!              HOSTNAME: ISMAELLOB5E2
+!              USERNAME: Ismael
+!
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+MODE M -1 LECTURE 256
