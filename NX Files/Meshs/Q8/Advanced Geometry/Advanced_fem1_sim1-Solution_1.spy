@@ -1,7 +1,7 @@
 !***********************************************************************
 ! Bacon Spy File
 ! Problem name: Advanced_fem1_sim1-Solution_1
-! Creation Date: APR 20 2018 11:06:47
+! Creation Date: APR 20 2018 11:26:38
 !
 INPUT INIT
 EXIT
@@ -18,7 +18,7 @@ EXIT
 !         SOLUTION TYPE: Linear Static Analysis
 !     SOLVER INPUT FILE: Advanced_fem1_sim1-Solution_1.dat
 !         CREATION DATE: 20-avril-2018
-!         CREATION TIME: 11:06:43
+!         CREATION TIME: 11:26:34
 !              HOSTNAME: ISMAELLOB5E2
 !              USERNAME: Ismael
 !

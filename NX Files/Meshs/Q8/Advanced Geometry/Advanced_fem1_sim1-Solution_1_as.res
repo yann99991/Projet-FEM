@@ -45,7 +45,7 @@
 
 
 
- Start of analysis : APR 20 2018 11:06:53
+ Start of analysis : APR 20 2018 11:26:44
  On the computer   : ISMAELLOB5E2
  Using O/S         : Win NT 6.2 64 bits
  For user          : Ismael
@@ -60,9 +60,9 @@
  ===============================================================================
  Status of the DB            : "Advanced_fem1_sim1-Solution_1"
  ================
- DB created by BACON for Ismael (APR 20 2018 11:06:47)
- modified   by BACON for Ismael (APR 20 2018 11:06:47)
- modified   by ASEF for Ismael (APR 20 2018 11:06:54)
+ DB created by BACON for Ismael (APR 20 2018 11:26:38)
+ modified   by BACON for Ismael (APR 20 2018 11:26:38)
+ modified   by ASEF for Ismael (APR 20 2018 11:26:44)
  Release                     :   18.1- 1
  DB file name                : "Y:\NX\Meshs\Q8\Advanced Geometry\Advanced_fem1_sim1-Solution_1.sdb"
  DB size                     :        1504799 (Max=       262257599)
@@ -116,7 +116,7 @@
  STRUCTURAL VARIABLES
  ====================
 
-     DEGR     0  IPLA     2  COVO     0  MKPS     0  ROTS     0  NTHE      0
+     DEGR     0  IPLA     1  COVO     0  MKPS     0  ROTS     0  NTHE      0
      TENS     0  ICRI     0  NLIS     0  MKUS     0  ECRS     0  NPHA      0
      IFO      0  ONDE     0  SECT     0
 
@@ -153,12 +153,12 @@
           ===============================
 
           NUMBER OF NODES                               21325
-          MAXIMUM NODE NUMBER                           23579
-          MINIMUM NODE NUMBER                               1
+          MAXIMUM NODE NUMBER                           43677
+          MINIMUM NODE NUMBER                            2462
           NUMBER OF INTERFACES                              0
           NUMBER OF LOCAL AXIS SYSTEMS                      0
           TOTAL NUMBER OF ELEMENTS                       6916
-          MAXIMUM ELEMENT NUMBER                         7672
+          MAXIMUM ELEMENT NUMBER                        14516
           NUMBER OF GENERAL PROPERTY ENTRIES                0
           NUMBER OF ELEMENT PROPERTY ENTRIES                0
           NUMBER OF ELEMENT ATTRIBUTE ENTRIES               0
@@ -199,9 +199,9 @@
 
     WORK SPACE AVAILABLE INSIDE SOLVER                                   130419485
     WORK SPACE REQUIRED FOR REORGANIZATION                                  903278
-    WORK SPACE REQUIRED FOR SYMBOLIC FACTORIZATION                          863102
-    WORK SPACE MINIMUM FOR OUT OF CORE FACTORIZATION                       2163517
-    WORK SPACE RECOMMENDED FOR IN CORE FACTORIZATION                       6627765
+    WORK SPACE REQUIRED FOR SYMBOLIC FACTORIZATION                          865660
+    WORK SPACE MINIMUM FOR OUT OF CORE FACTORIZATION                       2165422
+    WORK SPACE RECOMMENDED FOR IN CORE FACTORIZATION                       6632937
 
 
  CHECK OF MATERIALS
@@ -242,13 +242,13 @@
  NUMBER OF RETAINED D.O.F.                  42370
  MAX. DIM. OF A SUBSTRUCTURE                42370
  MAX. NUMBER FOR A D.O.F.                   42650
- MAX. NUMBER FOR A NODE                     23579
+ MAX. NUMBER FOR A NODE                     43677
  NUMBER OF ELEMENTS                          6916
  MAX. DIM. OF AN ELEMENT                       16
  PRINTOUT OPTIONS                          0    0    0    0   -1   -1
  ELEMENT LOADING OPTION (IFO)                   1
 
- PLANE-STRAIN PROBLEM (IPLAN=2)
+ PLANE-STRESS PROBLEM (IPLAN=1)
 
 
 
@@ -267,7 +267,7 @@
 
                                   G++M++K++U
  PROCESSING OF LOADS                  467842  WORDS
- MATRIX CONDENSATION                 6883280
+ MATRIX CONDENSATION                 6888452
  BACK SUBSTITUTION                         0
  PRINTOUT OF RESULTS                   85510
 
@@ -281,19 +281,19 @@
    UNIT  FILE                                        NUMBER OF 1 MEGABYTES BLOCK
 
     18   Y... \Advanced Geometry\Advanced_fem1_sim1-Solution_1_as.u18         29
-     1   Y... ion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w01          1
-     4   Y... lution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u04         45
-     8   Y... ion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w08         12
-     9   Y... lution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u09          1
-    10   Y... ion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w10          2
-    11   Y... lution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u11          9
-    13   Y... lution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u13          2
-    14   Y... ion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w14          1
-    52   Y... lution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u52          1
+     1   Y... ion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w01          1
+     4   Y... lution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u04         45
+     8   Y... ion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w08         12
+     9   Y... lution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u09          1
+    10   Y... ion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w10          2
+    11   Y... lution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u11          9
+    13   Y... lution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u13          2
+    14   Y... ion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w14          1
+    52   Y... lution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u52          1
 
          ESTIMATIONS FOR BCSLIB SOLVER
-     2   Y... ion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w02          6
-     3   Y... ion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w03          3
+     2   Y... ion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w02          6
+     3   Y... ion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w03          3
 
 
  SUMMARY OF DISK SPACE USAGE
@@ -303,12 +303,12 @@
                                 TOTAL           FREE        ALLOCATED BY SAMCEF
  -------------------------------------------------------------------------------
 
-    Y:\                       476802.         112207.      >           112 OK
+    Y:\                       476802.         112090.      >           112 OK
 
  -------------------------------------------------------------------------------
 
 0RECORD NO   8  WRITTEN IN STORAGE FILE NO  18
-  CPU=  0 H  0 Min  1.28 Sec.     Elapsed=  0 H  0 Min  4.00 Sec.     R= 32.0%
+  CPU=  0 H  0 Min  1.30 Sec.     Elapsed=  0 H  0 Min  3.00 Sec.     R= 43.2%
 1
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
@@ -320,8 +320,8 @@
  =========================
  TOTAL LENGTH     0.000000E+00
  TOTAL AREA       4.268207E+05
- TOTAL VOLUME     4.268207E+05
- TOTAL MASS       3.350542E+00
+ TOTAL VOLUME     1.280462E+07
+ TOTAL MASS       1.005163E+02
 
 
  INERTIA PROPERTIES PER ELEMENT GROUPS
@@ -329,40 +329,40 @@
           GROUP                         MASS                       INERTIA                                    C.O.G.
      NUMBER   NAME                                  ABOUT X       ABOUT Y       ABOUT Z       ABOUT X       ABOUT Y       ABOUT Z
  ===================================================================================================================================
-          1   2D_MAPPED_MESH(1)_0  1.9631684E-01 6.4946259E+04 3.1082113E+05 3.7576739E+05 1.2499717E+03-5.7499148E+02 0.0000000E+00
-          2   2D_MAPPED_MESH(2)_1  1.9618316E-01 5.4112074E+04 3.1063732E+05 3.6474940E+05 1.2500285E+03-5.2499149E+02 0.0000000E+00
-          3   2D_MAPPED_MESH(3)_2  1.1750545E-01 2.9409701E+04 9.6448977E+04 1.2585868E+05 9.0476770E+02-4.9837043E+02 0.0000000E+00
-          4   2D_MAPPED_MESH(4)_3  8.0641646E-02 1.5228406E+04 6.9605847E+04 8.4834253E+04 9.2835246E+02-4.3163989E+02 0.0000000E+00
-          5   2D_MAPPED_MESH(5)_4  4.9034044E-01 4.4361642E+04 2.8018338E+05 3.2454502E+05 7.5390716E+02-2.8221397E+02 0.0000000E+00
-          6   2D_MAPPED_MESH(6)_5  6.8522567E-01 2.1219506E+04 2.3243780E+05 2.5365731E+05 5.8033929E+02-8.1821761E+01 0.0000000E+00
-          7   2D_MAPPED_MESH(7)_6  2.1158448E-01 6.3475343E+03 4.8286043E+04 5.4633577E+04 4.7753899E+02 1.6790994E-14 0.0000000E+00
-          8   2D_MAPPED_MESH(8)_7  7.5644477E-01 1.4926624E+04 1.0126032E+05 1.1618695E+05 3.6095201E+02 2.4070042E-14 0.0000000E+00
-          9   2D_MAPPED_MESH(9)_8  2.1945966E-01 1.3593162E+04 1.5703616E+04 2.9296777E+04 2.5717876E+02-2.4625857E+02 0.0000000E+00
-         10   2D_MAPPED_MESH(10)_9 2.1946240E-01 1.3593362E+04 1.5703663E+04 2.9297025E+04 2.5717718E+02 2.4625886E+02 0.0000000E+00
-         11   2D_MAPPED_MESH(11)_1 5.6285085E-02 1.2004007E+03 2.4977036E+03 3.6981043E+03 2.0604317E+02 1.6855247E-03 0.0000000E+00
+          1   2D_MAPPED_MESH(23)_0 1.9605645E-01 1.1536702E+04 1.3448189E+03 1.2881521E+04 8.0785057E+01 2.4247665E+02 0.0000000E+00
+          2   2D_MAPPED_MESH(24)_1 1.0153642E+00 7.7024072E+04 9.4995988E+03 8.6523671E+04 9.3750508E+01 2.7498546E+02 0.0000000E+00
+          3   2D_MAPPED_MESH(25)_2 1.9606895E-01 1.1537368E+04 1.3449748E+03 1.2882342E+04 8.0787024E+01-2.4247590E+02 0.0000000E+00
+          4   2D_MAPPED_MESH(26)_3 1.0154462E+00 7.7030039E+04 9.5010052E+03 8.6531044E+04 9.3753492E+01-2.7498499E+02 0.0000000E+00
+          5   2D_MAPPED_MESH(27)_4 1.4456639E-01 9.3830263E+03 1.1543738E+02 9.4984637E+03 2.4484595E+01-2.5473476E+02 0.0000000E+00
+          6   2D_MAPPED_MESH(28)_5 4.6035604E-01 3.6260881E+04 3.9618866E+02 3.6657070E+04 2.5511235E+01-2.8042579E+02 0.0000000E+00
+          7   2D_MAPPED_MESH(29)_6 1.4456639E-01 9.3830263E+03 1.1543738E+02 9.4984637E+03 2.4484595E+01 2.5473476E+02 0.0000000E+00
+          8   2D_MAPPED_MESH(30)_7 4.6035604E-01 3.6260881E+04 3.9618866E+02 3.6657070E+04 2.5511235E+01 2.8042579E+02 0.0000000E+00
+          9   2D_MAPPED_MESH(31)_8 1.6885525E+00 3.6012020E+04 7.4931108E+04 1.1094313E+05 2.0604317E+02 1.6855247E-03 0.0000000E+00
+         10   2D_MAPPED_MESH(32)_9 6.5838721E+00 4.0780085E+05 4.7110988E+05 8.7891074E+05 2.5717718E+02 2.4625886E+02 0.0000000E+00
+         11   2D_MAPPED_MESH(33)_1 6.5837897E+00 4.0779485E+05 4.7110847E+05 8.7890332E+05 2.5717876E+02-2.4625857E+02 0.0000000E+00
               0                   
-         12   2D_MAPPED_MESH(13)_1 1.5345201E-02 1.2086960E+03 1.3206289E+01 1.2219023E+03 2.5511235E+01 2.8042579E+02 0.0000000E+00
+         12   2D_MAPPED_MESH(34)_1 2.2693343E+01 4.4779871E+05 3.0378097E+06 3.4856084E+06 3.6095201E+02 3.0684412E-14 0.0000000E+00
               1                   
-         13   2D_MAPPED_MESH(15)_1 4.8188798E-03 3.1276754E+02 3.8479127E+00 3.1661546E+02 2.4484595E+01 2.5473476E+02 0.0000000E+00
+         13   2D_MAPPED_MESH(35)_1 6.3475343E+00 1.9042603E+05 1.4485813E+06 1.6390073E+06 4.7753899E+02 2.7984990E-14 0.0000000E+00
               2                   
-         14   2D_MAPPED_MESH(17)_1 1.5345201E-02 1.2086960E+03 1.3206289E+01 1.2219023E+03 2.5511235E+01-2.8042579E+02 0.0000000E+00
+         14   2D_MAPPED_MESH(36)_1 2.0556770E+01 6.3658519E+05 6.9731340E+06 7.6097192E+06 5.8033929E+02-8.1821761E+01 0.0000000E+00
               3                   
-         15   2D_MAPPED_MESH(19)_1 4.8188798E-03 3.1276754E+02 3.8479127E+00 3.1661546E+02 2.4484595E+01-2.5473476E+02 0.0000000E+00
+         15   2D_MAPPED_MESH(37)_1 1.4710213E+01 1.3308492E+06 8.4055013E+06 9.7363505E+06 7.5390716E+02-2.8221397E+02 0.0000000E+00
               4                   
-         16   2D_MAPPED_MESH(20)_1 3.3848205E-02 2.5676680E+03 3.1670017E+02 2.8843681E+03 9.3753492E+01-2.7498499E+02 0.0000000E+00
+         16   2D_MAPPED_MESH(38)_1 2.4192494E+00 4.5685219E+05 2.0881754E+06 2.5450276E+06 9.2835246E+02-4.3163989E+02 0.0000000E+00
               5                   
-         17   2D_MAPPED_MESH(21)_1 6.5356316E-03 3.8457892E+02 4.4832494E+01 4.2941141E+02 8.0787024E+01-2.4247590E+02 0.0000000E+00
+         17   2D_MAPPED_MESH(39)_1 3.5251636E+00 8.8229102E+05 2.8934693E+06 3.7757603E+06 9.0476770E+02-4.9837043E+02 0.0000000E+00
               6                   
-         18   2D_MAPPED_MESH(22)_1 3.3845474E-02 2.5674691E+03 3.1665329E+02 2.8841224E+03 9.3750508E+01 2.7498546E+02 0.0000000E+00
+         18   2D_MAPPED_MESH(40)_1 5.8854949E+00 1.6233622E+06 9.3191197E+06 1.0942482E+07 1.2500285E+03-5.2499149E+02 0.0000000E+00
               7                   
-         19   2D_MAPPED_MESH(23)_1 6.5352150E-03 3.8455675E+02 4.4827295E+01 4.2938404E+02 8.0785057E+01 2.4247665E+02 0.0000000E+00
+         19   2D_MAPPED_MESH(41)_1 5.8895051E+00 1.9483878E+06 9.3246338E+06 1.1273022E+07 1.2499717E+03-5.7499148E+02 0.0000000E+00
               8                   
 
 
  INERTIAL PROPERTIES OF THE STRUCTURE
  ====================================
 
- TOTAL MASS                     3.350542E+00
+ TOTAL MASS                     1.005163E+02
 
  CENTER-OF-MASS    :  XG        5.808368E+02
                       YG       -1.503314E+02
@@ -371,25 +371,25 @@
 
  MOMENTS AND PRODUCTS OF INERTIA (IN STRUCTURAL AXIS, AT X=0, Y=0, Z=0)
 
-                     JXX        2.878859E+05
-                     JXY       -4.947005E+05
-                     JYY        1.484343E+06
+                     JXX        8.636576E+06
+                     JXY       -1.484102E+07
+                     JYY        4.453029E+07
                      JXZ        0.000000E+00
                      JYZ        0.000000E+00
-                     JZZ        1.772229E+06
+                     JZZ        5.316686E+07
 
 
  PRINCIPAL AXES AND MOMENTS OF INERTIA WITH RESPECT TO THE CENTER-OF-MASS
 
- AXIS 1:   0.000000E+00   0.000000E+00   1.000000E+00    INERTIA:   5.661311E+05
+ AXIS 1:   0.000000E+00   0.000000E+00   1.000000E+00    INERTIA:   1.698393E+07
 
- AXIS 2:   5.783672E-01   8.157766E-01   0.000000E+00    INERTIA:   4.972771E+05
+ AXIS 2:   5.783672E-01   8.157766E-01   0.000000E+00    INERTIA:   1.491831E+07
 
- AXIS 3:   8.157766E-01  -5.783672E-01   0.000000E+00    INERTIA:   6.885401E+04
+ AXIS 3:   8.157766E-01  -5.783672E-01   0.000000E+00    INERTIA:   2.065620E+06
 
  RECORD NO   9  WRITTEN IN STORAGE FILE NO  18
  END OF THE GENERATION OF ELEMENTS
-  CPU=  0 H  0 Min  2.02 Sec.     Elapsed=  0 H  0 Min  5.00 Sec.     R= 40.3%
+  CPU=  0 H  0 Min  2.08 Sec.     Elapsed=  0 H  0 Min  4.00 Sec.     R= 52.0%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
  WORKING MEMORY ZONE AVAILABLE    :                              26178000 WORDS
@@ -398,30 +398,30 @@
  CHECK OF THE DIAGONAL OF THE STIFFNESS MATRIX
  =============================================
 
- GREATEST DIAGONAL TERM   1.068247E+10   (NODE       2445        COMP.   2)
- LOWEST DIAGONAL TERM     1.810158E+08   (NODE      18985        COMP.   2)
+ GREATEST DIAGONAL TERM   2.616487E+11   (NODE      43530        COMP.   2)
+ LOWEST DIAGONAL TERM     4.742268E+09   (NODE      26905        COMP.   2)
 
- MEAN OF DIAGONAL TERMS   1.108443E+09
+ MEAN OF DIAGONAL TERMS   2.850239E+10
 
        280 FIXATION(S) ISSUING FROM THE DATA ANALYSIS
          0 NEW FIXATION(S) ISSUING FROM THE DIAGONAL INSPECTION
-  CPU=  0 H  0 Min  2.05 Sec.     Elapsed=  0 H  0 Min  5.00 Sec.     R= 40.9%
+  CPU=  0 H  0 Min  2.09 Sec.     Elapsed=  0 H  0 Min  4.00 Sec.     R= 52.3%
 
  RESOLUTION BY SPARSE SOLVER
  ===========================
 
 
  Time before the resolution
-  CPU=  0 H  0 Min  2.11 Sec.     Elapsed=  0 H  0 Min  5.00 Sec.     R= 42.2%
+  CPU=  0 H  0 Min  2.12 Sec.     Elapsed=  0 H  0 Min  4.00 Sec.     R= 53.1%
 
  Work space available for bcslib                             25964857
  Work space bcslib, minimum 1                                  903278
- Work space bcslib, minimum 2                                  863102
- Work space bcslib out-of-core factorization                  2163517
- Work space bcslib incore factorization                       6025241
+ Work space bcslib, minimum 2                                  865660
+ Work space bcslib out-of-core factorization                  2165422
+ Work space bcslib incore factorization                       6029943
 
  Time after the resolution
-  CPU=  0 H  0 Min  2.56 Sec.     Elapsed=  0 H  0 Min  6.00 Sec.     R= 42.7%
+  CPU=  0 H  0 Min  2.56 Sec.     Elapsed=  0 H  0 Min  5.00 Sec.     R= 51.2%
 
  ===========================================================
  = BCSLIB-EXT Release 4.1     ( 15 Nov 2001 )              =
@@ -432,49 +432,49 @@
      no. of nonzeroes in lower triangle of a =          628628
      number of compressed nodes              =           20698
      no. of compressed nonzeroes in l. tri.  =          146477
-     amount of workspace currently in use    =         5482961
-     max. amt. of workspace used             =        25964849
-     no. of nonzeroes in the factor l        =         3784098.
-     number of super nodes                   =            2187
-     number of compressed subscripts         =          131579
-     size of stack storage                   =          162288
-     maximum order of a front matrix         =             462
-     maximum size of a front matrix          =          106953
-     maximum size of a front trapezoid       =           50880
-     no. of floating point ops for factor    =      5.0058D+08
-     no. of floating point ops for solve     =      1.5348D+07
-     actual no. of nonzeroes in the factor l =         3784098.
-     actual number of compressed subscripts  =          131579
-     actual size of stack storage used       =          251442
+     amount of workspace currently in use    =         5491887
+     max. amt. of workspace used             =        25964850
+     no. of nonzeroes in the factor l        =         3791757.
+     number of super nodes                   =            2184
+     number of compressed subscripts         =          132864
+     size of stack storage                   =          157426
+     maximum order of a front matrix         =             450
+     maximum size of a front matrix          =          101475
+     maximum size of a front trapezoid       =           49344
+     no. of floating point ops for factor    =      4.9838D+08
+     no. of floating point ops for solve     =      1.5379D+07
+     actual no. of nonzeroes in the factor l =         3791757.
+     actual number of compressed subscripts  =          132864
+     actual size of stack storage used       =          244264
      near zero pivot monitoring activated
      number of pivots adjusted               =              0.
      factorization panel size                =             128
      factorization update panel size         =              64
      solution block size                     =               8
 
-     time (in seconds) for structure input   =        0.093750
+     time (in seconds) for structure input   =        0.078125
      time (in seconds) for ordering          =        0.171875
-     time (in seconds) for symbolic factor   =        0.000000
+     time (in seconds) for symbolic factor   =        0.015625
      time (in seconds) for value input       =        0.062500
 
      number of cpus used for factor & solve  =               1
-     time (in seconds) for numeric factor    =        0.109375
-     computational rate (mflops) for factor  =     4576.691611
+     time (in seconds) for numeric factor    =        0.093750
+     computational rate (mflops) for factor  =     5316.103904
      condition number estimate               =      0.0000D+00
 
      time (in seconds) for numeric solve     =        0.015625
-     computational rate (mflops) for solve   =      982.287488
+     computational rate (mflops) for solve   =      984.248192
 
      i/o statistics:   unit number        length        amount
                                          (Mbytes)      (Mbytes)
                        -----------       --------      --------
 
-                                3.           2.11          5.26
+                                3.           2.13          5.31
 
  END OF THE STIFFNESS MATRIX CONDENSATION
-  CPU=  0 H  0 Min  2.56 Sec.     Elapsed=  0 H  0 Min  6.00 Sec.     R= 42.7%
+  CPU=  0 H  0 Min  2.58 Sec.     Elapsed=  0 H  0 Min  5.00 Sec.     R= 51.6%
 
- LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   2.780397E+07
+ LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   1.123495E+06
  ---------------------                    ----------------------
 
 
@@ -482,28 +482,28 @@
 0RESULTANTS AT NODES
  -------------------
 0                         ALONG X          ALONG Y          ALONG Z
-0A) LOADS             5.000000E+05     1.996714E+07     0.000000E+00
-0B) REACTIONS        -5.000000E+05    -1.996714E+07     0.000000E+00
+0A) LOADS             1.500000E+07     1.901394E+07     0.000000E+00
+0B) REACTIONS        -1.500000E+07    -1.901394E+07     0.000000E+00
 
 
  **********************************************************************
 
  END OF DISPLACEMENT STORAGE
-  CPU=  0 H  0 Min  2.61 Sec.     Elapsed=  0 H  0 Min  6.00 Sec.     R= 43.5%
+  CPU=  0 H  0 Min  2.61 Sec.     Elapsed=  0 H  0 Min  5.00 Sec.     R= 52.2%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
  WORKING MEMORY ZONE AVAILABLE    :                              26178000 WORDS
 
 
  END OF STRESS STORAGE ON U18 FILE
-  CPU=  0 H  0 Min  3.14 Sec.     Elapsed=  0 H  0 Min  7.00 Sec.     R= 44.9%
+  CPU=  0 H  0 Min  3.19 Sec.     Elapsed=  0 H  0 Min  6.00 Sec.     R= 53.1%
 
  ===============================================================================
  Status of the DB            : "Advanced_fem1_sim1-Solution_1"
  ================
- DB created by BACON for Ismael (APR 20 2018 11:06:47)
- modified   by BACON for Ismael (APR 20 2018 11:06:47)
- modified   by ASEF for Ismael (APR 20 2018 11:06:54)
+ DB created by BACON for Ismael (APR 20 2018 11:26:38)
+ modified   by BACON for Ismael (APR 20 2018 11:26:38)
+ modified   by ASEF for Ismael (APR 20 2018 11:26:44)
  Release                     :   18.1- 1
  DB file name                : "Y:\NX\Meshs\Q8\Advanced Geometry\Advanced_fem1_sim1-Solution_1.sdb"
  DB size                     :        1880999 (Max=       262257599)
@@ -515,7 +515,7 @@
  Swap count                  :             40 page I/O on disk
  Used pages in memory        :            262 on           15855
  Used records in swap file   :              0 on           39713
- Page alignment garbage      :           5960 (  0.32% of the DB size)
+ Page alignment garbage      :           5670 (  0.30% of the DB size)
  Archive length :            :              0
  Archive garbage :           :              0
  Archive loading endian swap :              0
@@ -530,25 +530,25 @@
  File size statistics
  File name                                                            Size
  -------------------------------------------------------------------------------
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w01      682440 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w03     2105280 Bytes
- A... olution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u04    16432464 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w08    10071616 Bytes
- A... olution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u09      694048 Bytes
- A... olution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u11     9461104 Bytes
- A... olution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u13     1936496 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w14     1023672 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w01      682440 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w03     2125840 Bytes
+ A... olution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u04    16432464 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w08    10071616 Bytes
+ A... olution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u09      694048 Bytes
+ A... olution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u11     9461104 Bytes
+ A... olution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u13     1936496 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w14     1023672 Bytes
  Advanced_fem1_sim1-Solution_1_as.u18                             23997840 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\pilote.dat       189154 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w41     3463704 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w42     5134320 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w43       13392 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w44     5134320 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w41     3463704 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w42     5134320 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w43       13392 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w44     5134320 Bytes
  Y... s\Q8\Advanced Geometry\Advanced_fem1_sim1-Solution_1.sdb    14103416 Bytes
- A... olution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u50          48 Bytes
- A... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w51     2102608 Bytes
- A... olution_1000004048.dir\Advanced_fem1_sim1-Solution_1.u52      360448 Bytes
+ A... olution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u50          48 Bytes
+ A... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w51     2102608 Bytes
+ A... olution_1000011748.dir\Advanced_fem1_sim1-Solution_1.u52      360448 Bytes
  Advanced_fem1_sim1-Solution_1.sam                                 5148144 Bytes
- Y... tion_1000004048.dir\Advanced_fem1_sim1-Solution_1_as.w80     1056000 Bytes
+ Y... tion_1000011748.dir\Advanced_fem1_sim1-Solution_1_as.w80     1056000 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samcef.proc       84311 Bytes
  -------------------------------------------------------------------------------
