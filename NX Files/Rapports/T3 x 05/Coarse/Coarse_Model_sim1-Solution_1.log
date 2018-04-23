@@ -1,0 +1,1044 @@
+SAMCEF: Running module bacon
+ User requested workspace             131000000 words  (    1048 MBytes)
+ Memory allocation / DB                65500000 /      65500000 words
+@@@CSH:SMGINI: BACON
+@@@CSH:SMGINT: PID =     5644 : Current Process ID
+ Release : 18.1 (18.1-01) - Patch : c18101-170912 (LONG INTEGERS)
+ Graphic driver used: Windows   
+ 
+ >>> Sold-to info: 0001385912 <<<
+
+ Input 1>!
+ Input 1>!                    =====================================
+ Input 1>!                    Programme   <BACON> : Version 18.1-01
+ Input 1>!                    =====================================
+ Input 1>!
+ Input 1>!
+ Input 1>MODE M 1
+ Spy file :  9 - "Y:\NX\Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.spy"
+ Input 1>INPUT INIT
+ Input 1>EXIT
+ Input12>! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ Input12>!
+ Input12>!                     NX 12 TRANSLATOR
+ Input12>!                     This file is compatible with Samcef 18 (18.0-03) and next versions
+ Input12>!
+ Input12>!              FEM FILE: Y:\NX\Rapports\T3 x 05\Coarse\Coarse Model_sim1.sim
+ Input12>!              SIM FILE: Y:\NX\Rapports\T3 x 05\Coarse\Coarse Model_sim1.sim
+ Input12>!         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
+ Input12>!         SOLUTION NAME: Solution 1
+ Input12>!         SOLUTION TYPE: Linear Static Analysis
+ Input12>!     SOLVER INPUT FILE: Coarse_Model_sim1-Solution_1.dat
+ Input12>!         CREATION DATE: 21-avril-2018
+ Input12>!         CREATION TIME: 11:25:21
+ Input12>!              HOSTNAME: ISMAELLOB5E2
+ Input12>!              USERNAME: Ismael
+ Input12>!
+ Input12>! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ Input12> 
+ Input12>MODE M -1 LECTURE 256
+ Input12>!User Prolog
+ Input12>!-------------
+ Input12>! No User Prolog defined for the current solution.
+ Input12> 
+ Input12>! Samcef Bank File: UNITS.
+ Input12>! ------------------------
+ Input12>.UNIT
+ Input12> LENGTH 0.001 ! Unit = MilliMeter
+ Input12> MASS 1 ! Unit = Kilogram
+ Input12> CELSIUS
+ Input12> TIME 1
+ Input12> 
+ Input12>! Samcef Bank File: Solution Parameters: .ALGO.
+ Input12>! ---------------------------------------------
+ Input12>.ALGO
+ Input12> AXER 1 AXES 2
+ Input12>.GEL
+ Input12>TEMP 20 ! Default Temperature from Solution
+ Input12> 
+ Input12>! Samcef Bank File: NODES.
+ Input12>! ------------------------
+ Input12>.NOE
+ Input12> I 160 X 5.55111512e-14 Y -300 Z 0
+ Input12> I 161 X 5.55111512e-14 Y -250 Z 0
+ Input12> I 162 X 5.55111512e-14 Y 250 Z 0
+ Input12> I 163 X -5.55111512e-14 Y 300 Z 0
+ Input12> I 164 X 500 Y -300 Z 0
+ Input12> I 165 X 500 Y 300 Z 0
+ Input12> I 166 X 1000 Y -600 Z 0
+ Input12> I 167 X 1000 Y -500 Z 0
+ Input12> I 168 X 1500 Y -600 Z 0
+ Input12> I 169 X 1500 Y -500 Z 0
+ Input12> I 98 X 425.198945 Y -300 Z 0
+ Input12> I 99 X 352.756726 Y -300 Z 0
+ Input12> I 100 X 284.32727 Y -300 Z 0
+ Input12> I 101 X 220.550976 Y -300 Z 0
+ Input12> I 102 X 161.17844 Y -300 Z 0
+ Input12> I 103 X 105.387073 Y -300 Z 0
+ Input12> I 104 X 52.067723 Y -300 Z 0
+ Input12> I 105 X 55.6301345 Y -243.731586 Z 0
+ Input12> I 106 X 113.042917 Y -222.982572 Z 0
+ Input12> I 107 X 163.714935 Y -188.937123 Z 0
+ Input12> I 108 X 204.625207 Y -143.625988 Z 0
+ Input12> I 109 X 233.333831 Y -89.7505718 Z 0
+ Input12> I 110 X 248.129366 Y -30.5235379 Z 0
+ Input12> I 111 X 248.129366 Y 30.5235379 Z 0
+ Input12> I 112 X 233.333831 Y 89.7505718 Z 0
+ Input12> I 113 X 204.625207 Y 143.625988 Z 0
+ Input12> I 114 X 163.714935 Y 188.937123 Z 0
+ Input12> I 115 X 113.042917 Y 222.982572 Z 0
+ Input12> I 116 X 55.6301345 Y 243.731586 Z 0
+ Input12> I 117 X 48.0377905 Y 300 Z 0
+ Input12> I 118 X 96.8218229 Y 300 Z 0
+ Input12> I 119 X 147.070907 Y 300 Z 0
+ Input12> I 120 X 199.433813 Y 300 Z 0
+ Input12> I 121 X 254.418577 Y 300 Z 0
+ Input12> I 122 X 312.289433 Y 300 Z 0
+ Input12> I 123 X 372.947854 Y 300 Z 0
+ Input12> I 124 X 435.845702 Y 300 Z 0
+ Input12> I 125 X 937.5 Y -562.5 Z 0
+ Input12> I 126 X 875 Y -525 Z 0
+ Input12> I 127 X 812.5 Y -487.5 Z 0
+ Input12> I 128 X 750 Y -450 Z 0
+ Input12> I 129 X 687.5 Y -412.5 Z 0
+ Input12> I 130 X 625 Y -375 Z 0
+ Input12> I 131 X 562.5 Y -337.5 Z 0
+ Input12> I 132 X 535.714286 Y 242.857143 Z 0
+ Input12> I 133 X 571.428571 Y 185.714286 Z 0
+ Input12> I 134 X 607.142857 Y 128.571429 Z 0
+ Input12> I 135 X 642.857143 Y 71.4285714 Z 0
+ Input12> I 136 X 678.571429 Y 14.2857143 Z 0
+ Input12> I 137 X 714.285714 Y -42.8571429 Z 0
+ Input12> I 138 X 750 Y -100 Z 0
+ Input12> I 139 X 785.714286 Y -157.142857 Z 0
+ Input12> I 140 X 821.428571 Y -214.285714 Z 0
+ Input12> I 141 X 857.142857 Y -271.428571 Z 0
+ Input12> I 142 X 892.857143 Y -328.571429 Z 0
+ Input12> I 143 X 928.571429 Y -385.714286 Z 0
+ Input12> I 144 X 964.285714 Y -442.857143 Z 0
+ Input12> I 145 X 1437.5 Y -600 Z 0
+ Input12> I 146 X 1375 Y -600 Z 0
+ Input12> I 147 X 1312.5 Y -600 Z 0
+ Input12> I 148 X 1250 Y -600 Z 0
+ Input12> I 149 X 1187.5 Y -600 Z 0
+ Input12> I 150 X 1125 Y -600 Z 0
+ Input12> I 151 X 1062.5 Y -600 Z 0
+ Input12> I 152 X 1062.5 Y -500 Z 0
+ Input12> I 153 X 1125 Y -500 Z 0
+ Input12> I 154 X 1187.5 Y -500 Z 0
+ Input12> I 155 X 1250 Y -500 Z 0
+ Input12> I 156 X 1312.5 Y -500 Z 0
+ Input12> I 157 X 1375 Y -500 Z 0
+ Input12> I 158 X 1437.5 Y -500 Z 0
+ Input12> I 159 X 1500 Y -550 Z 0
+ Input12> I 1 X 1027.99856 Y -551.860162 Z 0
+ Input12> I 2 X 1093.28463 Y -550.347218 Z 0
+ Input12> I 3 X 1156.17952 Y -550.065991 Z 0
+ Input12> I 4 X 1218.73882 Y -550.012569 Z 0
+ Input12> I 5 X 1281.22234 Y -550.002396 Z 0
+ Input12> I 6 X 1343.58632 Y -550.000456 Z 0
+ Input12> I 7 X 1405.15979 Y -550.000087 Z 0
+ Input12> I 8 X 1461.98338 Y -550.000016 Z 0
+ Input12> I 9 X 580.314058 Y 53.9893388 Z 0
+ Input12> I 10 X 521.628349 Y 36.4358531 Z 0
+ Input12> I 11 X 469.851438 Y 22.177129 Z 0
+ Input12> I 12 X 419.350184 Y 9.94708438 Z 0
+ Input12> I 13 X 364.757142 Y -1.85058921 Z 0
+ Input12> I 14 X 304.547742 Y -15.1787627 Z 0
+ Input12> I 15 X 277.381559 Y 247.080193 Z 0
+ Input12> I 16 X 239.162766 Y 193.91552 Z 0
+ Input12> I 17 X 215.724205 Y 248.912493 Z 0
+ Input12> I 18 X 156.726754 Y 259.252434 Z 0
+ Input12> I 19 X 470.012126 Y 242.320354 Z 0
+ Input12> I 20 X 403.452383 Y 243.08336 Z 0
+ Input12> I 21 X 339.275676 Y 245.547605 Z 0
+ Input12> I 22 X 303.268816 Y 193.047087 Z 0
+ Input12> I 23 X 267.356772 Y 141.697133 Z 0
+ Input12> I 24 X 506.81504 Y 187.211025 Z 0
+ Input12> I 25 X 436.251988 Y 179.11715 Z 0
+ Input12> I 26 X 366.419884 Y 189.49102 Z 0
+ Input12> I 27 X 540.154084 Y 144.839409 Z 0
+ Input12> I 28 X 483.870201 Y 127.593487 Z 0
+ Input12> I 29 X 432.867204 Y 124.767612 Z 0
+ Input12> I 30 X 388.112854 Y 135.717495 Z 0
+ Input12> I 31 X 329.308939 Y 140.084932 Z 0
+ Input12> I 32 X 355.912582 Y 91.1521874 Z 0
+ Input12> I 33 X 385.738013 Y 48.2150892 Z 0
+ Input12> I 34 X 326.582554 Y 40.5244185 Z 0
+ Input12> I 35 X 293.716864 Y 89.359061 Z 0
+ Input12> I 36 X 408.359722 Y 91.7886032 Z 0
+ Input12> I 37 X 435.815654 Y 56.3444911 Z 0
+ Input12> I 38 X 448.043161 Y 93.9441267 Z 0
+ Input12> I 39 X 534.769143 Y 92.9326732 Z 0
+ Input12> I 40 X 482.08225 Y 71.1565984 Z 0
+ Input12> I 41 X 197.610543 Y -247.416538 Z 0
+ Input12> I 42 X 148.528874 Y -252.401931 Z 0
+ Input12> I 43 X 272.675313 Y -137.687556 Z 0
+ Input12> I 44 X 293.062573 Y -196.944786 Z 0
+ Input12> I 45 X 320.429036 Y -247.672413 Z 0
+ Input12> I 46 X 257.925877 Y -247.595654 Z 0
+ Input12> I 47 X 231.703887 Y -193.975927 Z 0
+ Input12> I 48 X 757.308272 Y -216.018688 Z 0
+ Input12> I 49 X 693.25718 Y -217.948295 Z 0
+ Input12> I 50 X 630.896061 Y -219.749479 Z 0
+ Input12> I 51 X 571.559679 Y -222.618464 Z 0
+ Input12> I 52 X 513.434927 Y -230.919703 Z 0
+ Input12> I 53 X 450.500432 Y -240.788599 Z 0
+ Input12> I 54 X 384.695389 Y -245.811731 Z 0
+ Input12> I 55 X 597.78898 Y -166.400615 Z 0
+ Input12> I 56 X 625.352575 Y -108.311263 Z 0
+ Input12> I 57 X 652.35605 Y -48.6020398 Z 0
+ Input12> I 58 X 687.20799 Y -103.772042 Z 0
+ Input12> I 59 X 722.118578 Y -159.621995 Z 0
+ Input12> I 60 X 659.388644 Y -162.601156 Z 0
+ Input12> I 61 X 350.709053 Y -197.421393 Z 0
+ Input12> I 62 X 409.733515 Y -190.695422 Z 0
+ Input12> I 63 X 472.145284 Y -180.366879 Z 0
+ Input12> I 64 X 535.706326 Y -171.25965 Z 0
+ Input12> I 65 X 402.746387 Y -40.6649444 Z 0
+ Input12> I 66 X 387.700827 Y -93.9256361 Z 0
+ Input12> I 67 X 372.287201 Y -147.229126 Z 0
+ Input12> I 68 X 347.139444 Y -55.8049774 Z 0
+ Input12> I 69 X 332.866991 Y -110.634475 Z 0
+ Input12> I 70 X 289.867511 Y -73.0320809 Z 0
+ Input12> I 71 X 324.911716 Y -158.138483 Z 0
+ Input12> I 72 X 442.199138 Y -77.2238794 Z 0
+ Input12> I 73 X 485.696126 Y -57.5148413 Z 0
+ Input12> I 74 X 533.206139 Y -59.5477075 Z 0
+ Input12> I 75 X 591.544281 Y -55.0165572 Z 0
+ Input12> I 76 X 563.247643 Y -112.221264 Z 0
+ Input12> I 77 X 429.380461 Y -133.802331 Z 0
+ Input12> I 78 X 494.489583 Y -113.220713 Z 0
+ Input12> I 79 X 454.031891 Y -26.3821357 Z 0
+ Input12> I 80 X 503.517537 Y -15.1954491 Z 0
+ Input12> I 81 X 557.691562 Y -5.89092422 Z 0
+ Input12> I 82 X 617.054293 Y 4.81974483 Z 0
+ Input12> I 83 X 727.895037 Y -274.032391 Z 0
+ Input12> I 84 X 693.096644 Y -338.37657 Z 0
+ Input12> I 85 X 662.305587 Y -273.421017 Z 0
+ Input12> I 86 X 629.045659 Y -319.003548 Z 0
+ Input12> I 87 X 601.554332 Y -273.126834 Z 0
+ Input12> I 88 X 549.836119 Y -271.791178 Z 0
+ Input12> I 89 X 828.30517 Y -324.178075 Z 0
+ Input12> I 90 X 766.834538 Y -326.898836 Z 0
+ Input12> I 91 X 793.208476 Y -271.182834 Z 0
+ Input12> I 92 X 751.907209 Y -385.92755 Z 0
+ Input12> I 93 X 856.90489 Y -378.315152 Z 0
+ Input12> I 94 X 802.557073 Y -366.794218 Z 0
+ Input12> I 95 X 808.842688 Y -419.10309 Z 0
+ Input12> I 96 X 882.459478 Y -447.550976 Z 0
+ Input12> I 97 X 932.008004 Y -495.542739 Z 0
+ Input12>! Samcef Bank File: ELEMENTS.
+ Input12>! ---------------------------
+ Input12>.MAI
+ Input12> I 1 AT 1 0 N 151 2 150
+ Input12> I 2 AT 1 0 N 151 1 2
+ Input12> I 3 AT 1 0 N 152 1 167
+ Input12> I 4 AT 1 0 N 152 2 1
+ Input12> I 5 AT 1 0 N 150 3 149
+ Input12> I 6 AT 1 0 N 150 2 3
+ Input12> I 7 AT 1 0 N 153 2 152
+ Input12> I 8 AT 1 0 N 153 3 2
+ Input12> I 9 AT 1 0 N 149 4 148
+ Input12> I 10 AT 1 0 N 149 3 4
+ Input12> I 11 AT 1 0 N 154 3 153
+ Input12> I 12 AT 1 0 N 154 4 3
+ Input12> I 13 AT 1 0 N 148 5 147
+ Input12> I 14 AT 1 0 N 148 4 5
+ Input12> I 15 AT 1 0 N 155 4 154
+ Input12> I 16 AT 1 0 N 155 5 4
+ Input12> I 17 AT 1 0 N 147 6 146
+ Input12> I 18 AT 1 0 N 147 5 6
+ Input12> I 19 AT 1 0 N 156 5 155
+ Input12> I 20 AT 1 0 N 156 6 5
+ Input12> I 21 AT 1 0 N 146 7 145
+ Input12> I 22 AT 1 0 N 146 6 7
+ Input12> I 23 AT 1 0 N 157 6 156
+ Input12> I 24 AT 1 0 N 157 7 6
+ Input12> I 25 AT 1 0 N 158 7 157
+ Input12> I 26 AT 1 0 N 8 145 7
+ Input12> I 27 AT 1 0 N 168 8 159
+ Input12> I 28 AT 1 0 N 168 145 8
+ Input12> I 29 AT 1 0 N 158 8 7
+ Input12> I 30 AT 1 0 N 8 169 159
+ Input12> I 31 AT 1 0 N 8 158 169
+ Input12> I 32 AT 1 0 N 116 118 115
+ Input12> I 33 AT 1 0 N 117 162 163
+ Input12> I 34 AT 1 0 N 116 117 118
+ Input12> I 35 AT 1 0 N 116 162 117
+ Input12> I 36 AT 1 0 N 15 121 122
+ Input12> I 37 AT 1 0 N 121 17 120
+ Input12> I 38 AT 1 0 N 17 15 16
+ Input12> I 39 AT 1 0 N 17 121 15
+ Input12> I 40 AT 1 0 N 16 114 17
+ Input12> I 41 AT 1 0 N 16 113 114
+ Input12> I 42 AT 1 0 N 120 18 119
+ Input12> I 43 AT 1 0 N 118 18 115
+ Input12> I 44 AT 1 0 N 118 119 18
+ Input12> I 45 AT 1 0 N 17 18 120
+ Input12> I 46 AT 1 0 N 18 114 115
+ Input12> I 47 AT 1 0 N 18 17 114
+ Input12> I 48 AT 1 0 N 122 21 15
+ Input12> I 49 AT 1 0 N 122 123 21
+ Input12> I 50 AT 1 0 N 123 20 21
+ Input12> I 51 AT 1 0 N 124 20 123
+ Input12> I 52 AT 1 0 N 124 19 20
+ Input12> I 53 AT 1 0 N 19 165 132
+ Input12> I 54 AT 1 0 N 19 124 165
+ Input12> I 55 AT 1 0 N 22 15 21
+ Input12> I 56 AT 1 0 N 113 23 112
+ Input12> I 57 AT 1 0 N 113 16 23
+ Input12> I 58 AT 1 0 N 22 16 15
+ Input12> I 59 AT 1 0 N 22 23 16
+ Input12> I 60 AT 1 0 N 21 26 22
+ Input12> I 61 AT 1 0 N 24 132 133
+ Input12> I 62 AT 1 0 N 19 24 25
+ Input12> I 63 AT 1 0 N 19 132 24
+ Input12> I 64 AT 1 0 N 20 26 21
+ Input12> I 65 AT 1 0 N 25 20 19
+ Input12> I 66 AT 1 0 N 25 26 20
+ Input12> I 67 AT 1 0 N 22 31 23
+ Input12> I 68 AT 1 0 N 27 133 134
+ Input12> I 69 AT 1 0 N 26 31 22
+ Input12> I 70 AT 1 0 N 27 24 133
+ Input12> I 71 AT 1 0 N 26 30 31
+ Input12> I 72 AT 1 0 N 28 24 27
+ Input12> I 73 AT 1 0 N 25 30 26
+ Input12> I 74 AT 1 0 N 25 29 30
+ Input12> I 75 AT 1 0 N 28 25 24
+ Input12> I 76 AT 1 0 N 28 29 25
+ Input12> I 77 AT 1 0 N 34 13 14
+ Input12> I 78 AT 1 0 N 13 33 12
+ Input12> I 79 AT 1 0 N 33 34 32
+ Input12> I 80 AT 1 0 N 33 13 34
+ Input12> I 81 AT 1 0 N 31 35 23
+ Input12> I 82 AT 1 0 N 35 32 34
+ Input12> I 83 AT 1 0 N 35 31 32
+ Input12> I 84 AT 1 0 N 35 112 23
+ Input12> I 85 AT 1 0 N 111 14 110
+ Input12> I 86 AT 1 0 N 111 34 14
+ Input12> I 87 AT 1 0 N 35 111 112
+ Input12> I 88 AT 1 0 N 35 34 111
+ Input12> I 89 AT 1 0 N 30 32 31
+ Input12> I 90 AT 1 0 N 32 36 33
+ Input12> I 91 AT 1 0 N 36 30 29
+ Input12> I 92 AT 1 0 N 36 32 30
+ Input12> I 93 AT 1 0 N 37 33 36
+ Input12> I 94 AT 1 0 N 12 37 11
+ Input12> I 95 AT 1 0 N 12 33 37
+ Input12> I 96 AT 1 0 N 9 134 135
+ Input12> I 97 AT 1 0 N 36 38 37
+ Input12> I 98 AT 1 0 N 38 29 28
+ Input12> I 99 AT 1 0 N 38 36 29
+ Input12> I 100 AT 1 0 N 39 9 10
+ Input12> I 101 AT 1 0 N 134 39 27
+ Input12> I 102 AT 1 0 N 134 9 39
+ Input12> I 103 AT 1 0 N 40 37 38
+ Input12> I 104 AT 1 0 N 11 40 10
+ Input12> I 105 AT 1 0 N 11 37 40
+ Input12> I 106 AT 1 0 N 40 39 10
+ Input12> I 107 AT 1 0 N 39 28 27
+ Input12> I 108 AT 1 0 N 28 40 38
+ Input12> I 109 AT 1 0 N 28 39 40
+ Input12> I 110 AT 1 0 N 102 41 101
+ Input12> I 111 AT 1 0 N 104 105 103
+ Input12> I 112 AT 1 0 N 161 104 160
+ Input12> I 113 AT 1 0 N 161 105 104
+ Input12> I 114 AT 1 0 N 42 41 102
+ Input12> I 115 AT 1 0 N 107 42 106
+ Input12> I 116 AT 1 0 N 107 41 42
+ Input12> I 117 AT 1 0 N 103 42 102
+ Input12> I 118 AT 1 0 N 106 103 105
+ Input12> I 119 AT 1 0 N 106 42 103
+ Input12> I 120 AT 1 0 N 45 100 46
+ Input12> I 121 AT 1 0 N 45 99 100
+ Input12> I 122 AT 1 0 N 46 101 41
+ Input12> I 123 AT 1 0 N 46 100 101
+ Input12> I 124 AT 1 0 N 107 47 41
+ Input12> I 125 AT 1 0 N 107 108 47
+ Input12> I 126 AT 1 0 N 43 108 109
+ Input12> I 127 AT 1 0 N 43 47 108
+ Input12> I 128 AT 1 0 N 47 46 41
+ Input12> I 129 AT 1 0 N 44 47 43
+ Input12> I 130 AT 1 0 N 46 44 45
+ Input12> I 131 AT 1 0 N 46 47 44
+ Input12> I 132 AT 1 0 N 48 139 140
+ Input12> I 133 AT 1 0 N 58 137 138
+ Input12> I 134 AT 1 0 N 137 57 136
+ Input12> I 135 AT 1 0 N 57 58 56
+ Input12> I 136 AT 1 0 N 57 137 58
+ Input12> I 137 AT 1 0 N 59 139 48
+ Input12> I 138 AT 1 0 N 138 59 58
+ Input12> I 139 AT 1 0 N 138 139 59
+ Input12> I 140 AT 1 0 N 56 60 55
+ Input12> I 141 AT 1 0 N 60 58 59
+ Input12> I 142 AT 1 0 N 60 56 58
+ Input12> I 143 AT 1 0 N 59 49 60
+ Input12> I 144 AT 1 0 N 59 48 49
+ Input12> I 145 AT 1 0 N 55 50 51
+ Input12> I 146 AT 1 0 N 50 60 49
+ Input12> I 147 AT 1 0 N 50 55 60
+ Input12> I 148 AT 1 0 N 51 64 55
+ Input12> I 149 AT 1 0 N 51 52 64
+ Input12> I 150 AT 1 0 N 63 52 53
+ Input12> I 151 AT 1 0 N 63 64 52
+ Input12> I 152 AT 1 0 N 53 62 63
+ Input12> I 153 AT 1 0 N 53 54 62
+ Input12> I 154 AT 1 0 N 54 61 62
+ Input12> I 155 AT 1 0 N 61 45 44
+ Input12> I 156 AT 1 0 N 61 54 45
+ Input12> I 157 AT 1 0 N 68 65 66
+ Input12> I 158 AT 1 0 N 13 68 14
+ Input12> I 159 AT 1 0 N 65 13 12
+ Input12> I 160 AT 1 0 N 65 68 13
+ Input12> I 161 AT 1 0 N 14 70 110
+ Input12> I 162 AT 1 0 N 14 68 70
+ Input12> I 163 AT 1 0 N 69 66 67
+ Input12> I 164 AT 1 0 N 68 69 70
+ Input12> I 165 AT 1 0 N 68 66 69
+ Input12> I 166 AT 1 0 N 67 71 69
+ Input12> I 167 AT 1 0 N 71 61 44
+ Input12> I 168 AT 1 0 N 71 67 61
+ Input12> I 169 AT 1 0 N 43 71 44
+ Input12> I 170 AT 1 0 N 70 109 110
+ Input12> I 171 AT 1 0 N 70 43 109
+ Input12> I 172 AT 1 0 N 43 69 71
+ Input12> I 173 AT 1 0 N 43 70 69
+ Input12> I 174 AT 1 0 N 75 56 76
+ Input12> I 175 AT 1 0 N 75 57 56
+ Input12> I 176 AT 1 0 N 76 55 64
+ Input12> I 177 AT 1 0 N 76 56 55
+ Input12> I 178 AT 1 0 N 64 78 76
+ Input12> I 179 AT 1 0 N 64 63 78
+ Input12> I 180 AT 1 0 N 67 62 61
+ Input12> I 181 AT 1 0 N 67 77 62
+ Input12> I 182 AT 1 0 N 63 77 78
+ Input12> I 183 AT 1 0 N 63 62 77
+ Input12> I 184 AT 1 0 N 76 74 75
+ Input12> I 185 AT 1 0 N 66 77 67
+ Input12> I 186 AT 1 0 N 72 77 66
+ Input12> I 187 AT 1 0 N 78 74 76
+ Input12> I 188 AT 1 0 N 78 73 74
+ Input12> I 189 AT 1 0 N 72 78 77
+ Input12> I 190 AT 1 0 N 72 73 78
+ Input12> I 191 AT 1 0 N 72 79 73
+ Input12> I 192 AT 1 0 N 65 72 66
+ Input12> I 193 AT 1 0 N 79 65 12
+ Input12> I 194 AT 1 0 N 79 72 65
+ Input12> I 195 AT 1 0 N 11 79 12
+ Input12> I 196 AT 1 0 N 80 11 10
+ Input12> I 197 AT 1 0 N 79 80 73
+ Input12> I 198 AT 1 0 N 79 11 80
+ Input12> I 199 AT 1 0 N 74 80 81
+ Input12> I 200 AT 1 0 N 74 73 80
+ Input12> I 201 AT 1 0 N 81 10 9
+ Input12> I 202 AT 1 0 N 81 80 10
+ Input12> I 203 AT 1 0 N 9 82 81
+ Input12> I 204 AT 1 0 N 82 135 136
+ Input12> I 205 AT 1 0 N 82 9 135
+ Input12> I 206 AT 1 0 N 81 75 74
+ Input12> I 207 AT 1 0 N 81 82 75
+ Input12> I 208 AT 1 0 N 57 82 136
+ Input12> I 209 AT 1 0 N 57 75 82
+ Input12> I 210 AT 1 0 N 54 99 45
+ Input12> I 211 AT 1 0 N 54 98 99
+ Input12> I 212 AT 1 0 N 166 1 151
+ Input12> I 213 AT 1 0 N 53 98 54
+ Input12> I 214 AT 1 0 N 83 49 48
+ Input12> I 215 AT 1 0 N 85 83 84
+ Input12> I 216 AT 1 0 N 49 85 50
+ Input12> I 217 AT 1 0 N 49 83 85
+ Input12> I 218 AT 1 0 N 53 164 98
+ Input12> I 219 AT 1 0 N 86 130 131
+ Input12> I 220 AT 1 0 N 130 84 129
+ Input12> I 221 AT 1 0 N 84 86 85
+ Input12> I 222 AT 1 0 N 84 130 86
+ Input12> I 223 AT 1 0 N 50 87 51
+ Input12> I 224 AT 1 0 N 87 85 86
+ Input12> I 225 AT 1 0 N 87 50 85
+ Input12> I 226 AT 1 0 N 88 131 164
+ Input12> I 227 AT 1 0 N 131 87 86
+ Input12> I 228 AT 1 0 N 131 88 87
+ Input12> I 229 AT 1 0 N 51 88 52
+ Input12> I 230 AT 1 0 N 51 87 88
+ Input12> I 231 AT 1 0 N 52 164 53
+ Input12> I 232 AT 1 0 N 52 88 164
+ Input12> I 233 AT 1 0 N 91 140 141
+ Input12> I 234 AT 1 0 N 48 91 83
+ Input12> I 235 AT 1 0 N 48 140 91
+ Input12> I 236 AT 1 0 N 141 89 91
+ Input12> I 237 AT 1 0 N 141 142 89
+ Input12> I 238 AT 1 0 N 83 90 84
+ Input12> I 239 AT 1 0 N 90 91 89
+ Input12> I 240 AT 1 0 N 90 83 91
+ Input12> I 241 AT 1 0 N 92 84 90
+ Input12> I 242 AT 1 0 N 129 92 128
+ Input12> I 243 AT 1 0 N 129 84 92
+ Input12> I 244 AT 1 0 N 142 93 89
+ Input12> I 245 AT 1 0 N 142 143 93
+ Input12> I 246 AT 1 0 N 90 94 92
+ Input12> I 247 AT 1 0 N 94 89 93
+ Input12> I 248 AT 1 0 N 94 90 89
+ Input12> I 249 AT 1 0 N 95 92 94
+ Input12> I 250 AT 1 0 N 128 95 127
+ Input12> I 251 AT 1 0 N 128 92 95
+ Input12> I 252 AT 1 0 N 96 93 143
+ Input12> I 253 AT 1 0 N 127 96 126
+ Input12> I 254 AT 1 0 N 93 95 94
+ Input12> I 255 AT 1 0 N 95 96 127
+ Input12> I 256 AT 1 0 N 95 93 96
+ Input12> I 257 AT 1 0 N 144 96 143
+ Input12> I 258 AT 1 0 N 1 125 167
+ Input12> I 259 AT 1 0 N 1 166 125
+ Input12> I 260 AT 1 0 N 125 97 167
+ Input12> I 261 AT 1 0 N 97 144 167
+ Input12> I 262 AT 1 0 N 97 96 144
+ Input12> I 263 AT 1 0 N 126 97 125
+ Input12> I 264 AT 1 0 N 126 96 97
+ Input12>! Samcef Bank File : GROUPS.
+ Input12>! --------------------------
+ Input12>.SEL
+  Current accuracy =  2.40000000E-01
+ Input12> GROUP 1 MAILLE NOM "2d_mesh(1)_0"
+ Input12> I 1 J 264 K 1
+ Input12> GROUP 2 NOEUDS NOM "Fixed(1)"
+ Input12> I 145 J 151 K 1
+ Input12> I 166
+ Input12> I 168
+ Input12> GROUP 3 NOEUDS NOM "UserDefined(1)"
+ Input12> I 160 J 163 K 1
+ Input12>! Samcef Bank File: MATERIALS.
+ Input12>! ----------------------------
+ Input12>.MAT
+ Input12>! Materiau 1::Coarse Model_fem1::[1]
+ Input12>   I 1 BEHA "ELASTIC"
+ Input12>   YT 2.1e+08  ! Young's modulus (E)
+ Input12>   NT 0.3  ! Poisson's ratio (NU)
+ Input12>   M 7.85e-06  !  Mass Density (Rho)
+ Input12> 
+ Input12>! Samcef Bank File: HYPOTHESES
+ Input12>! ----------------------------
+ Input12>.HYP MEMB BIDIM GROUP "2d_mesh(1)_0"
+ Input12>! Samcef Bank File: Physicals Properties
+ Input12>! --------------------------------------
+ Input12>.PHP
+ Input12>!Plane Stress XY(1)
+ Input12> GROUP "2d_mesh(1)_0" THICK VAL 30 ! Thickness
+ Input12>! Samcef Bank File: CONSTRAINTS.
+ Input12>! ------------------------------
+ Input12>.CLM ADD
+ Input12>!
+ Input12>! Fixed(1)
+ Input12> GROUP "Fixed(1)" FIX C 1 2 3 4 5 6
+ Input12> 
+ Input12>!
+ Input12>! UserDefined(1)
+ Input12> GROUP "UserDefined(1)" FIX C 1 6
+ Input12> 
+ Input12>! Samcef Bank File: LOADS.
+ Input12>! ------------------------
+ Input12>.CLM ADD
+ Input12> STRU ACC VAL 0 -9810 0
+ Input12> 
+ Input12> ARETE I 32 3 PRE V 1000
+ Input12> ARETE I 35 1 PRE V 1000
+ Input12> ARETE I 41 2 PRE V 1000
+ Input12> ARETE I 46 2 PRE V 1000
+ Input12> ARETE I 56 3 PRE V 1000
+ Input12> ARETE I 85 3 PRE V 1000
+ Input12> ARETE I 87 2 PRE V 1000
+ Input12> ARETE I 113 1 PRE V 1000
+ Input12> ARETE I 115 3 PRE V 1000
+ Input12> ARETE I 118 3 PRE V 1000
+ Input12> ARETE I 125 1 PRE V 1000
+ Input12> ARETE I 126 2 PRE V 1000
+ Input12> ARETE I 170 2 PRE V 1000
+ Input12> 
+ Input12> NOEUD 105 CHA  C 2 V 3.73427e+06
+ Input12> NOEUD 106 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 107 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 108 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 109 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 110 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 111 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 112 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 113 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 114 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 115 CHA  C 2 V 3.89588e+06
+ Input12> NOEUD 116 CHA  C 2 V 3.73427e+06
+ Input12> NOEUD 161 CHA  C 2 V 1.78633e+06
+ Input12> NOEUD 162 CHA  C 2 V 1.78633e+06
+ Input12> 
+ Input12>! Samcef Bank File: Elements Attributes
+ Input12>! -------------------------------------
+ Input12>.AEL
+ Input12> I 1 THETA -58.2012
+ Input12> I 2 THETA -125.629
+ Input12> I 3 THETA 123.635
+ Input12> I 4 THETA 58.5564
+ Input12> I 5 THETA -58.0187
+ Input12> I 6 THETA -122.568
+ Input12> I 7 THETA 122.208
+ Input12> I 8 THETA 58.0866
+ Input12> I 9 THETA -57.9974
+ Input12> I 10 THETA -122.097
+ Input12> I 11 THETA 122.029
+ Input12> I 12 THETA 58.0103
+ Input12> I 13 THETA -58.0162
+ Input12> I 14 THETA -122.021
+ Input12> I 15 THETA 122.008
+ Input12> I 16 THETA 58.0187
+ Input12> I 17 THETA -58.1295
+ Input12> I 18 THETA -122.029
+ Input12> I 19 THETA 122.027
+ Input12> I 20 THETA 58.1299
+ Input12> I 21 THETA -58.9018
+ Input12> I 22 THETA -122.14
+ Input12> I 23 THETA 122.14
+ Input12> I 24 THETA 58.9018
+ Input12> I 25 THETA 122.895
+ Input12> I 26 THETA 116.09
+ Input12> I 27 THETA -127.247
+ Input12> I 28 THETA 180
+ Input12> I 29 THETA 63.9105
+ Input12> I 30 THETA -52.7531
+ Input12> I 31 THETA -116.089
+ Input12> I 32 THETA -53.7937
+ Input12> I 33 THETA 133.853
+ Input12> I 34 THETA -97.6846
+ Input12> I 35 THETA -173.571
+ Input12> I 36 THETA -113.457
+ Input12> I 37 THETA 127.141
+ Input12> I 38 THETA 1.70218
+ Input12> I 39 THETA -52.8592
+ Input12> I 40 THETA 176.225
+ Input12> I 41 THETA 124.48
+ Input12> I 42 THETA 136.345
+ Input12> I 43 THETA 34.2237
+ Input12> I 44 THETA 0
+ Input12> I 45 THETA -170.059
+ Input12> I 46 THETA 84.3244
+ Input12> I 47 THETA 9.94074
+ Input12> I 48 THETA 63.6373
+ Input12> I 49 THETA 0
+ Input12> I 50 THETA 61.8109
+ Input12> I 51 THETA 119.646
+ Input12> I 52 THETA 59.3597
+ Input12> I 53 THETA -62.5299
+ Input12> I 54 THETA -120.64
+ Input12> I 55 THETA -115.599
+ Input12> I 56 THETA 1.76116
+ Input12> I 57 THETA -55.5197
+ Input12> I 58 THETA -179.224
+ Input12> I 59 THETA 124.967
+ Input12> I 60 THETA 64.1624
+ Input12> I 61 THETA -62.5554
+ Input12> I 62 THETA 56.2644
+ Input12> I 63 THETA -0.468098
+ Input12> I 64 THETA 124.645
+ Input12> I 65 THETA -117.147
+ Input12> I 66 THETA -171.55
+ Input12> I 67 THETA 63.8178
+ Input12> I 68 THETA -52.5794
+ Input12> I 69 THETA 126.912
+ Input12> I 70 THETA -128.197
+ Input12> I 71 THETA 68.0302
+ Input12> I 72 THETA -68.9499
+ Input12> I 73 THETA 137.964
+ Input12> I 74 THETA 93.5637
+ Input12> I 75 THETA -132.744
+ Input12> I 76 THETA 176.829
+ Input12> I 77 THETA 47.9851
+ Input12> I 78 THETA -67.2631
+ Input12> I 79 THETA 172.593
+ Input12> I 80 THETA 112.737
+ Input12> I 81 THETA 125.056
+ Input12> I 82 THETA -1.6514
+ Input12> I 83 THETA -54.9444
+ Input12> I 84 THETA -179.629
+ Input12> I 85 THETA 39.0096
+ Input12> I 86 THETA -7.26464
+ Input12> I 87 THETA 127.77
+ Input12> I 88 THETA 56.0595
+ Input12> I 89 THETA 125.85
+ Input12> I 90 THETA -0.695217
+ Input12> I 91 THETA -114.745
+ Input12> I 92 THETA 179.305
+ Input12> I 93 THETA 170.779
+ Input12> I 94 THETA -70.4613
+ Input12> I 95 THETA -131.294
+ Input12> I 96 THETA -70.2152
+ Input12> I 97 THETA -3.10913
+ Input12> I 98 THETA -116.213
+ Input12> I 99 THETA 176.891
+ Input12> I 100 THETA 40.5322
+ Input12> I 101 THETA 153.783
+ Input12> I 102 THETA 109.785
+ Input12> I 103 THETA 162.248
+ Input12> I 104 THETA -75.9792
+ Input12> I 105 THETA -134.889
+ Input12> I 106 THETA -22.4558
+ Input12> I 107 THETA -145.746
+ Input12> I 108 THETA 91.8146
+ Input12> I 109 THETA 34.2538
+ Input12> I 110 THETA -55.2841
+ Input12> I 111 THETA -86.3774
+ Input12> I 112 THETA 43.8394
+ Input12> I 113 THETA -6.42898
+ Input12> I 114 THETA -5.79984
+ Input12> I 115 THETA 103.457
+ Input12> I 116 THETA 59.9027
+ Input12> I 117 THETA -47.8116
+ Input12> I 118 THETA 95.6768
+ Input12> I 119 THETA 39.6602
+ Input12> I 120 THETA 124.603
+ Input12> I 121 THETA 58.2925
+ Input12> I 122 THETA 125.497
+ Input12> I 123 THETA 63.261
+ Input12> I 124 THETA 4.23856
+ Input12> I 125 THETA -47.9219
+ Input12> I 126 THETA 175.013
+ Input12> I 127 THETA 126.05
+ Input12> I 128 THETA 63.9397
+ Input12> I 129 THETA -177.23
+ Input12> I 130 THETA -55.2508
+ Input12> I 131 THETA -116.06
+ Input12> I 132 THETA -64.2439
+ Input12> I 133 THETA -66.034
+ Input12> I 134 THETA 174.7
+ Input12> I 135 THETA 57.7186
+ Input12> I 136 THETA -5.29987
+ Input12> I 137 THETA -2.23242
+ Input12> I 138 THETA 115.063
+ Input12> I 139 THETA 57.9946
+ Input12> I 140 THETA 57.9151
+ Input12> I 141 THETA -64.6913
+ Input12> I 142 THETA -122.085
+ Input12> I 143 THETA 116.327
+ Input12> I 144 THETA 58.0372
+ Input12> I 145 THETA 58.1772
+ Input12> I 146 THETA -63.5004
+ Input12> I 147 THETA -121.823
+ Input12> I 148 THETA -124.919
+ Input12> I 149 THETA 171.872
+ Input12> I 150 THETA 50.7593
+ Input12> I 151 THETA -8.15402
+ Input12> I 152 THETA -129.139
+ Input12> I 153 THETA 175.635
+ Input12> I 154 THETA -125.082
+ Input12> I 155 THETA 121.072
+ Input12> I 156 THETA 54.9182
+ Input12> I 157 THETA -15.2307
+ Input12> I 158 THETA 108.083
+ Input12> I 159 THETA -134.384
+ Input12> I 160 THETA 164.769
+ Input12> I 161 THETA 104.238
+ Input12> I 162 THETA 43.647
+ Input12> I 163 THETA -16.9469
+ Input12> I 164 THETA 104.591
+ Input12> I 165 THETA 43.2232
+ Input12> I 166 THETA 167.032
+ Input12> I 167 THETA 56.7068
+ Input12> I 168 THETA -12.9677
+ Input12> I 169 THETA 21.3807
+ Input12> I 170 THETA 163.526
+ Input12> I 171 THETA 104.891
+ Input12> I 172 THETA -24.2015
+ Input12> I 173 THETA -75.1093
+ Input12> I 174 THETA 57.6104
+ Input12> I 175 THETA -6.02138
+ Input12> I 176 THETA 57.481
+ Input12> I 177 THETA -3.60247
+ Input12> I 178 THETA -125.381
+ Input12> I 179 THETA 171.846
+ Input12> I 180 THETA 49.255
+ Input12> I 181 THETA -13.2339
+ Input12> I 182 THETA -132.564
+ Input12> I 183 THETA 170.603
+ Input12> I 184 THETA -119.698
+ Input12> I 185 THETA 43.7336
+ Input12> I 186 THETA 102.766
+ Input12> I 187 THETA -54.1955
+ Input12> I 188 THETA -98.9704
+ Input12> I 189 THETA 34.5436
+ Input12> I 190 THETA -24.3759
+ Input12> I 191 THETA -76.8984
+ Input12> I 192 THETA 42.8198
+ Input12> I 193 THETA 164.438
+ Input12> I 194 THETA 103.102
+ Input12> I 195 THETA 108.044
+ Input12> I 196 THETA -132.013
+ Input12> I 197 THETA -12.7381
+ Input12> I 198 THETA -71.9555
+ Input12> I 199 THETA -123.798
+ Input12> I 200 THETA -177.55
+ Input12> I 201 THETA -130.432
+ Input12> I 202 THETA 170.254
+ Input12> I 203 THETA 53.2324
+ Input12> I 204 THETA -68.8247
+ Input12> I 205 THETA -126.768
+ Input12> I 206 THETA 55.4291
+ Input12> I 207 THETA -10.2277
+ Input12> I 208 THETA -123.457
+ Input12> I 209 THETA 173.979
+ Input12> I 210 THETA 120.515
+ Input12> I 211 THETA 53.2234
+ Input12> I 212 THETA -59.8173
+ Input12> I 213 THETA 113.137
+ Input12> I 214 THETA -121.7
+ Input12> I 215 THETA 0.534051
+ Input12> I 216 THETA 119.16
+ Input12> I 217 THETA 58.3003
+ Input12> I 218 THETA 50.105
+ Input12> I 219 THETA 94.1324
+ Input12> I 220 THETA -28.2721
+ Input12> I 221 THETA -163.171
+ Input12> I 222 THETA 151.728
+ Input12> I 223 THETA 118.798
+ Input12> I 224 THETA 0.277448
+ Input12> I 225 THETA -61.2022
+ Input12> I 226 THETA 79.0913
+ Input12> I 227 THETA -58.7554
+ Input12> I 228 THETA -100.909
+ Input12> I 229 THETA 113.835
+ Input12> I 230 THETA 59.2958
+ Input12> I 231 THETA 101.006
+ Input12> I 232 THETA 48.3109
+ Input12> I 233 THETA -63.6193
+ Input12> I 234 THETA 56.9444
+ Input12> I 235 THETA -1.54815
+ Input12> I 236 THETA 118.665
+ Input12> I 237 THETA 57.9946
+ Input12> I 238 THETA 53.626
+ Input12> I 239 THETA -64.6688
+ Input12> I 240 THETA -126.374
+ Input12> I 241 THETA -141.043
+ Input12> I 242 THETA -22.4196
+ Input12> I 243 THETA -85.6821
+ Input12> I 244 THETA 125.858
+ Input12> I 245 THETA 57.9946
+ Input12> I 246 THETA 48.1586
+ Input12> I 247 THETA -58.8602
+ Input12> I 248 THETA -131.841
+ Input12> I 249 THETA -149.771
+ Input12> I 250 THETA -27.7029
+ Input12> I 251 THETA -88.295
+ Input12> I 252 THETA -110.259
+ Input12> I 253 THETA -29.7277
+ Input12> I 254 THETA 139.68
+ Input12> I 255 THETA 21.1281
+ Input12> I 256 THETA -40.3196
+ Input12> I 257 THETA 176.717
+ Input12> I 258 THETA 173.295
+ Input12> I 259 THETA 120.183
+ Input12> I 260 THETA -94.689
+ Input12> I 261 THETA -58.5064
+ Input12> I 262 THETA -135.914
+ Input12> I 263 THETA -27.3264
+ Input12> I 264 THETA -84.4985
+ Input12> 
+ Input12> I 1 J 264 K 1 MAT 1
+ Input12>! Samcef Bank File: .SAI
+ Input12>! ----------------------
+ Input12>.SAI
+ Input12> ARCHIVE STRUCTURE STYPE -221 !Suppress obsolete code
+ Input12>! Element Output Requests
+ Input12> ARCHIVE STRUCTURE STYP 1437 1438  3437 3438   ! Normal Forces Moments (Samcef default)
+ Input12> ARCHIVE STRUCTURE STYP 1524 1525 1251  3524 3525 3251   ! Shear Forces Moments (Samcef default)
+ Input12> ARCHIVE STRUCTURE STYP 1440  3440   ! Normal Stress Beams Rods (Samcef default)
+ Input12> ARCHIVE STRUCTURE STYP 1450  3450   ! Shear Stress Beams (Samcef default)
+ Input12> ARCHIVE STRUCTURE STYP 1411 3411 1436 1435 1431 3436 3435 3431  ! Linear Stress Tensor (Samcef default)
+ Input12> ARCHIVE STRUCTURE STYP 1421 3421 1446 1445  3446 3445  1528  3528   ! Total Strain Tensor (Samcef default)
+ Input12>! Nodal Output Requests
+ Input12> ARCHIVE STRUCTURE STYP 223   ! Force Reaction
+ Input12> ARCHIVE STRUCTURE STYP 224   ! Torque Reaction
+ Input12>! User Codes Output Requests
+ Input12> 
+ Input12>! Summary of the model
+ Input12>! --------------------
+ Input12>! Number of nodes: 169
+ Input12>! Minimum node id: 1
+ Input12>! Maximum node id: 169
+ Input12>! Number of elements: 264
+ Input12>! Minimum element id: 1
+ Input12>! Maximum element id: 264
+ Input12> 
+ Input12>!User Epilog
+ Input12>!-------------
+ Input12>! Declaration of abreviations for the Epilog:
+ Input12>! ==========================================
+ Input12>! Greater Node Number:     NUMBERMAXNODE
+ Input12>#INQ (/NUMBERMAXNODE,NOD,,MAX)
+ Input12>! Greater Element Number:  NUMBERMAXELEMENT
+ Input12>#INQ (/NUMBERMAXELEMENT,ELE,,MAX)
+ Input12>! Greater Function Number: NUMBERMAXFUNCTION
+ Input12>#INQ (/NUMBERMAXFUNCTION,FUN,,MAX)
+ Input12>! Greater Material Number: NUMBERMAXMATERIAL
+ Input12>#INQ (/NUMBERMAXMATERIAL,MAT,,MAX)
+ Input12>! No User Epilog defined for the current solution.
+ Input12> 
+ Input12> 
+ Input12>! No Warning Messages
+ Input12>! No Error Messages
+ Input12>! No Critical Messages
+ Input12> 
+ Input12>RETURN
+
+ Samcef File (Binary) :  3 - "Y:\NX\Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.sam"
+
+
+      SAMCEF FILE CREATION
+      ********************
+    NR  DATA TYPE            OBJECT NAME   RECORDS
+ =================================================
+     1  TITLE       
+     2  NODES-.NOE            (.NOE)        169
+     3  ELEMENT-.MAI          (.MAI)        264
+     4  HYPOTHESIS            (.HYP)        264
+     5  FIXATIONS             (.CLM)         13
+     6  LOADS (.CHA)            ?CLM
+
+      DB FILE CREATION
+      ****************
+
+ Saving the auxiliary memory in the DB ...
+ Saving the rotation matrix in the DB ...
+ Saving the ABREviations in the DB ...
+ Saving the release flag in the DB ...
+ Writing the DB on a binary file ...
+ DB File     : "Y:\NX\Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.sdb"
+
+@@@CSH:SMGFIN: I_RUNSUCCESS
+ -------------------------------------------------------------------------------
+ File size statistics
+ File name                                                            Size
+ -------------------------------------------------------------------------------
+ C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\pilote.dat       189154 Bytes
+ Y... ports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1_ba.w02        2518 Bytes
+ Y... Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.sam       82656 Bytes
+ Y... Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.spy        1092 Bytes
+ Y... Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.dat       23619 Bytes
+ Y... Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.sdb     2163384 Bytes
+ C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\dic.dic          445236 Bytes
+ C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samcef.proc       84311 Bytes
+ -------------------------------------------------------------------------------
+SAMCEF: Module bacon completed
+SAMCEF: Running module asef
+@@@CSH:SMGINI: ASEF
+@@@CSH:SMGINT: PID =     5956 : Current Process ID
+@@@CSH:SMGSTG:  1 /  4 : Data Analysis
+@@@CSH:SMGSTG:  2 /  4 : Element Generation
+@@@CSH:SMGSTG:  3 /  4 : Frontal Resolution
+@@@CSH:SMGSTG:  4 /  4 : Stress Computation
+@@@CSH:SMGBEG:  1 /  4 : Data Analysis
+@@@CSH:SMGEVO:     1 /     4 : Front Width Optimization
+@@@CSH:SMGEVO:     2 /     4 : Dof Numbering
+@@@CSH:SMGEVO:     3 /     4 : Substructuring
+@@@CSH:SMGEVO:     4 /     4 : Resource Estimation
+@@@CSH:SMGINT: NBRDDL =      316 : Number of dof's
+@@@CSH:SMGINF: Disk space report for device "Y:\"
+@@@CSH:SMGREA: DISKFREE =   105991.230 : Free disk space (Mb).
+@@@CSH:SMGREA: DISKREQUIRED =       12.000 : Required disk space (Mb).
+@@@CSH:SMGEND: -1 /  4 : Data Analysis
+@@@CSH:SMGBEG:  2 /  4 : Element Generation
+@@@CSH:SMGEVO:     1 /   264 : Elements generated@@@CSH:SMGEVO:   264 /   264 : Elements generated
+@@@CSH:SMGREA: TOTSURF%AREA = 4.2778079781643E5 : Total surface.
+@@@CSH:SMGREA: TOTVOLUME%VOLUME = 1.2833423934493E7 : Total volume.
+@@@CSH:SMGREA: TOTMASS%MASS = 1.0074237788577E2 : Total mass.
+@@@CSH:SMGEND: -2 /  4 : Element Generation
+@@@CSH:SMGBEG:  3 /  4 : Sparse Solver
+@@@CSH:SMGEVO:     1 /   100 : Factorization %
+@@@CSH:SMGREA: TOTENERGY%ENERGY =  5.93027922E+06 : Total potential energy, load case 1
+@@@CSH:SMGEND: -3 /  4 : Sparse Solver
+@@@CSH:SMGBEG:  4 /  4 : Stress Computation
+@@@CSH:SMGEVO:     1 /   264 : Elements treated@@@CSH:SMGEVO:   264 /   264 : Elements treated
+@@@CSH:SMGEND: -4 /  4 : Stress Computation
+@@@CSH:SMGINT: NBRWRN =        0 : Number of warning(s)
+@@@CSH:SMGINT: NBRERR =        0 : Number of error(s)
+@@@CSH:SMGFIN: I_RUNSUCCESS
+SAMCEF: Module asef completed
+ User requested workspace             131000000 words  (    1048 MBytes)
+@@@CSH:SMGINI: FAC
+@@@CSH:SMGINT: PID =    11532 : Current Process ID
+ Release : 18.1 (18.1-01) - Date : 7-Jun-2017  (LONG INTEGERS)
+
+ ===============================================================================
+ Status of the DB            : "Coarse_Model_sim1-Solution_1"
+ ================
+ DB created by BACON for Ismael (APR 21 2018 11:25:25)
+ modified   by BACON for Ismael (APR 21 2018 11:25:25)
+ modified   by ASEF for Ismael (APR 21 2018 11:25:25)
+ Release                     :   18.1- 1
+ DB file name                : "Y:\NX\Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.sdb"
+ DB size                     :         435599 (Max=       262257599)
+ Memory allocated            :         435900
+ Size of the garbage         :              4 (  0.00% of the DB size)
+ Relational level            :              0
+ Object counter              :            447
+ Pagination flag             :        on (not yet triggered)
+ Swap count                  :             40 page I/O on disk
+ Used pages in memory        :             43 on              43
+ Used records in swap file   :              0 on           39713
+ Page alignment garbage      :            301 (  0.07% of the DB size)
+ Archive length :            :              0
+ Archive garbage :           :              0
+ Archive loading endian swap :              0
+ ===============================================================================
+----------------------------------------------------------------------
+    MEMORY ALLOCATION / DB:                     130554097    435902
+----------------------------------------------------------------------
+ +===============================================================+======+======+
+ !  Processed Data                                               ! Code ! Type !
+ +===============================================================+======+======+
+ ! "Creation date of the display file  [APR 21 2018 11:25:27]"   !   24 ! CHAR !
+ !---------------------------------------------------------------!------!------!
+ ! "Module name  [ASEF]"                                         !   23 ! CHAR !
+ !---------------------------------------------------------------!------!------!
+ ! "Number of errors  [0]"                                       !   59 ! INTG !
+ !---------------------------------------------------------------!------!------!
+ ! "Number of warnings  [0]"                                     !   60 ! INTG !
+ !---------------------------------------------------------------!------!------!
+ ! "CPU Time (Sec.)  [1]"                                        ! 1006 ! INTG !
+ !---------------------------------------------------------------!------!------!
+ ! "Elapsed Time (Sec.)  [2]"                                    ! 1007 ! INTG !
+ !---------------------------------------------------------------!------!------!
+ ! "Elements  [264]"                                             !    2 ! INTG !
+ !---------------------------------------------------------------!------!------!
+ ! "Nodes  [169]"                                                !    1 ! INTG !
+ !---------------------------------------------------------------!------!------!
+ ! "Nodal coordinates (X,Y,Z)"                                   !  153 ! REAL !
+ !---------------------------------------------------------------!------!------!
+ ! "Nodal displacements (DX,DY,DZ)"                              !  163 ! REAL !
+ !---------------------------------------------------------------!------!------!
+ ! "Reaction - effort"                                           !  223 ! REAL !
+ !---------------------------------------------------------------!------!------!
+ !  "Subset Nr          1"                                       !      !      !
+ !---------------------------------------------------------------!------!------!
+ ! "Stress tensor"                                               ! 1411 ! REAL !
+ !---------------------------------------------------------------!------!------!
+ ! "Strain tensor"                                               ! 1421 ! REAL !
+ !---------------------------------------------------------------!------!------!
+ ! "Stress tensor"                                               ! 3411 ! REAL !
+ !---------------------------------------------------------------!------!------!
+ ! "Strain tensor"                                               ! 3421 ! REAL !
+ !---------------------------------------------------------------!------!------!
+ ! "Status of the FAC program"                                   !   62 !      !
+ !---------------------------------------------------------------!------!------!
+ ! "FAC Pointers"                                                ! 1073 ! INTG !
+ !---------------------------------------------------------------!------!------!
+@@@CSH:SMGFIN: I_RUNSUCCESS
+ -------------------------------------------------------------------------------
+ File size statistics
+ File name                                                            Size
+ -------------------------------------------------------------------------------
+ Coarse_Model_sim1-Solution_1_as.u18                                498016 Bytes
+ Coarse_Model_sim1-Solution_1_as.des                                  4387 Bytes
+ Coarse_Model_sim1-Solution_1_as.fac                                 70104 Bytes
+ C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\dic.dic          445236 Bytes
+ C... ution_1000012428.dir\Coarse_Model_sim1-Solution_1_fa.w07       68832 Bytes
+ C... ution_1000012428.dir\Coarse_Model_sim1-Solution_1_fa.w10      253504 Bytes
+ C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samdb.fde        292703 Bytes
+ Y... Rapports\T3 x 05\Coarse\Coarse_Model_sim1-Solution_1.sdb     2533208 Bytes
+ Y... ution_1000012428.dir\Coarse_Model_sim1-Solution_1_fa.w80     1056000 Bytes
+ C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samcef.proc       84311 Bytes
+ -------------------------------------------------------------------------------

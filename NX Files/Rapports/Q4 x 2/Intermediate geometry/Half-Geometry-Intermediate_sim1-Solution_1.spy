@@ -1,0 +1,26 @@
+!***********************************************************************
+! Bacon Spy File
+! Problem name: Half-Geometry-Intermediate_sim1-Solution_1
+! Creation Date: APR 16 2018 10:32:38
+!
+INPUT INIT
+EXIT
+;INPUT  "C:\Users\antoi\Documents\Projet FEM\Projet-FEM\NX Files\Meshs\Q6 _T15\Intermediate geometry\Half-Geometry-Intermediate_sim1-Solution_1.dat"
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!
+!                     NX 12 TRANSLATOR
+!                     This file is compatible with Samcef 18 (18.0-03) and next versions
+!
+!              FEM FILE: C:\Users\antoi\Documents\Projet FEM\Projet-FEM\NX Files\Meshs\Q6 _T15\Intermediate geometry\Half-Geometry-Intermediate_sim1.sim
+!              SIM FILE: C:\Users\antoi\Documents\Projet FEM\Projet-FEM\NX Files\Meshs\Q6 _T15\Intermediate geometry\Half-Geometry-Intermediate_sim1.sim
+!         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
+!         SOLUTION NAME: Solution 1
+!         SOLUTION TYPE: Linear Static Analysis
+!     SOLVER INPUT FILE: Half-Geometry-Intermediate_sim1-Solution_1.dat
+!         CREATION DATE: 16-avril-2018
+!         CREATION TIME: 10:32:35
+!              HOSTNAME: DESKTOP-OGM2ALH
+!              USERNAME: antoi
+!
+! $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+MODE M -1 LECTURE 256
